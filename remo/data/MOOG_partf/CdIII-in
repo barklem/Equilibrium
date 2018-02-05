@@ -1,0 +1,100 @@
+48        Partition function for doubly ionized cadmium
+temp (K)  Z_CdIII
+  001.000  1.000
+  200.000  1.000
+  400.000  1.000
+  600.000  1.000
+  800.000  1.000
+  1000.000  1.000
+  1200.000  1.000
+  1400.000  1.000
+  1600.000  1.000
+  1800.000  1.000
+  2000.000  1.000
+  2200.000  1.000
+  2400.000  1.000
+  2600.000  1.000
+  2800.000  1.000
+  3000.000  1.000
+  3200.000  1.000
+  3400.000  1.000
+  3600.000  1.000
+  3800.000  1.000
+  4000.000  1.000
+  4200.000  1.000
+  4400.000  1.000
+  4600.000  1.000
+  4800.000  1.000
+  5000.000  1.000
+  5200.000  1.000
+  5400.000  1.000
+  5600.000  1.000
+  5800.000  1.000
+  6000.000  1.000
+  6200.000  1.000
+  6400.000  1.000
+  6600.000  1.000
+  6800.000  1.000
+  7000.000  1.000
+  7200.000  1.000
+  7400.000  1.000
+  7600.000  1.000
+  7800.000  1.000
+  8000.000  1.000
+  8200.000  1.000
+  8400.000  1.000
+  8600.000  1.000
+  8800.000  1.000
+  9000.000  1.000
+  9200.000  1.000
+  9400.000  1.000
+  9600.000  1.000
+  9800.000  1.000
+  10000.000  1.000
+  10200.000  1.000
+  10400.000  1.000
+  10600.000  1.000
+  10800.000  1.000
+  11000.000  1.000
+  11200.000  1.000
+  11400.000  1.001
+  11600.000  1.001
+  11800.000  1.001
+  12000.000  1.001
+  12200.000  1.001
+  12400.000  1.001
+  12600.000  1.001
+  12800.000  1.002
+  13000.000  1.002
+     -1.000  0.000
+
+Energy levels of Cd III from C. E. Moore, Atomic Energy Levels, vol 2,
+including 12 odd and 33 even were updated and supplemented using van Kleef,
+Johsi, & Uihlings, Phys. Scripta vol 22 p 353 (1980).
+This included all 4 possible levels of the 4d^9^5s even config.,
+all 12 possible levels of the 4d^9^5p odd config.,
+  all but one  J=0 level of 31 possible levels of
+the combined even 4d^8^5s^2^ , 4d^9^6s  & 4d^9^5d configs.,
+and all but one  J=0 level of 22 possible levels of
+the combined even 4d^9^7s ,   & 4d^9^6d configs.
+An additional 18 levels from
+Churilov, Joshi, & Ryabtsev, J. Phys. B
+At. Mol. Opt. Phys. vol 27 p 5485 (1994)were also included.
+These J=1 levels are from numerous configs.
+Eight fake level all above 200000 cm_1 were
+added to replace levels missing in van Kleef's
+and Churilov's tables.  These levels
+changed the partition function by 0.0% (0.0%) at 5000K (10000K).
+
+
+
+
+
+James E. Lawler
+Arthur and Aurelia Schawlow Professor of Physics
+University of Wisconsin
+1150 University Ave.
+Madison, WI 53706
+
+tele: 608 262 2918
+fax:  608 265 2334

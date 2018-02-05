@@ -1,0 +1,48 @@
+J/A+A/vol/page     Partition functions for molecules and atoms  (Barklem+, 2016)
+================================================================================
+Partition functions and equilibrium constants for diatomic molecules and atoms 
+of astrophysical interest
+     P. S. Barklem and R. Collet
+    <Astron. Astrophys. vol, page (year)>
+    =2016A&A...VVV.ppppI     (SIMBAD/NED BibCode)
+================================================================================
+Keywords: molecular data; atomic data;
+
+Description:
+    The table contains the first, second and third ionisation energies for
+    all chemical elements from H to U. The data comes from the CRC Handbook
+    of Chemistry and Physics (Haynes, W. M. 2010).
+    Each entry in the table lists the atomic number, the element's symbol, 
+    and the three ionisation energies in eV.
+    The format is ASCII.
+
+File Summary:
+--------------------------------------------------------------------------------
+  FileName   Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe          48        .   This file
+table4.txt      53       94   Ionisation energies for all elements
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   5-  7  I3    ---     Atom.Num. Atomic number
+  15- 16  A2    ---     Elem.     Element's symbol
+  23- 29  F7.4  eV      IE1       First ionisation energy
+  36- 41  F6.3  eV      IE2       Second ionisation energy (1)
+  47- 53  F7.3  eV      IE3       Third ionisation energy (1)
+--------------------------------------------------------------------------------
+Note (1):
+    For H and He, the highest possible ionisation stages are the first and
+    second, respectively. Therefore, the ionisation energy of higher stages
+    for these two elements are meaningless and are assigned a value of −1 
+    in the table.
+--------------------------------------------------------------------------------
+
+References:
+    Haynes, W. M., ed. 2010, CRC Handbook of Chemistry and Physics, 91st edn.
+    (CRC Press, Taylor and Francis Group)
+================================================================================
+(End)          R. Collet [Aarhus University]                         08-Feb-2016

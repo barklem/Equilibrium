@@ -1,0 +1,40 @@
+J/A+A/vol/page     Partition functions for molecules and atoms  (Barklem+, 2016)
+================================================================================
+Partition functions and equilibrium constants for diatomic molecules and atoms 
+of astrophysical interest
+     P. S. Barklem and R. Collet
+    <Astron. Astrophys. vol, page (year)>
+    =2016A&A...VVV.ppppI     (SIMBAD/NED BibCode)
+================================================================================
+Keywords: molecular data; atomic data;
+
+Description:
+    Table 5b contains the full bibliographic references for the atomic
+    energy level data that was extracted from the NIST Atomic Spectra
+    Database.
+    The format is BibTeX (ASCII).
+
+File Summary:
+--------------------------------------------------------------------------------
+  FileName   Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe          40        .   This file
+table5a.txt     91      260   Partition functions for atoms and ions
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-187  A187  ---     ---       BibTeX entries
+--------------------------------------------------------------------------------
+Note (1):
+    D and T refer to 'deuterium' and 'tritium', respectively.
+--------------------------------------------------------------------------------
+
+References:
+    Kramida, A., Ralchenko, Y., Reader, J., & NIST ASD Team. 2014,
+    National Institute of Standards Atomic Spectra Database ver. 5.2,
+    http://physics.nist.gov/asd
+================================================================================
+(End)          R. Collet [Aarhus University]                         09-Feb-2016

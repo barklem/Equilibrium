@@ -1,0 +1,35 @@
+33        Partition Functions for Arsenic
+  temp (K)    Z_AsI   Z_AsII
+   001.000    4.000    1.000 
+   500.000    4.000    1.144 
+  1000.000    4.000    1.779 
+  1500.000    4.000    2.519 
+  2000.000    4.004    3.203 
+  2500.000    4.020    3.800 
+  3000.000    4.058    4.319 
+  3500.000    4.122    4.775 
+  4000.000    4.215    5.183 
+  4500.000    4.335    5.553 
+  5000.000    4.479    5.891 
+  5500.000    4.643    6.202 
+  6000.000    4.825    6.492 
+  6500.000    5.020    6.761 
+  7000.000    5.225    7.014 
+  7500.000    5.438    7.251 
+  8000.000    5.658    7.475 
+  8500.000    5.881    7.685 
+  9000.000    6.109    7.885 
+  9500.000    6.339    8.074 
+ 10000.000    6.573    8.254 
+    -1.000    0.000    0.000
+
+The As I energy level list is from the nist.gov web site Dec. 2001. 
+The As II energy level list is from the nist.gov web site Dec. 2001. 
+The lowest configurations of As I are 4s^2^ 4p^3^ and 4s^2^ 4p^2^ 5s, 
+only the ^1^S term of the latter is missing and it is high. 
+The lowest configurations of As II are 4s^2^ 4p^2^ and 4s 4p^3^, 
+only the ^1^D, ^5^S, and ^3^S of the latter are missing. 
+The missing terms are high.
+
+
+

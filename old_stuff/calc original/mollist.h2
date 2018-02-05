@@ -1,0 +1,29 @@
+# Input file for molcalc
+#
+# List of Atoms to calculate partition functions for
+# All atoms needed for the molecules must be included
+#
+# atom           energy level file
+# identifier
+#
+    H            H_nist.atom
+end
+#
+# List of Molecules to calculate properties for
+# Assumed that energy levels and partition functions are isotope independent
+# and thus only mass need be defined differently for possible isotopes
+#
+### At present, usual isotopic mixtures are taken for atomic masses
+### Test case only at present
+#
+# The list is kept general, in the sense that it allows molecules with more than 2 atoms
+# but whether we'll ever be able to calculate for these is another issue entirely
+# Huber and Herzberg lists only deal with diatomic, and usual molecular parameters 
+# have no meaning
+# A possiblility is to use the NIST thermodynamical data
+#
+# Molecule     Molecular data file   number  atom1 mass1   atom2 mass2   etc for required
+# identifer                          atoms         [u]           [u]     number atoms
+#  
+  H2           H2.mol                    2     H    1.      H    1.
+end molecules

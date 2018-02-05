@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: equil.aux
+The style file: aa.bst
+Database file #1: equil.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty publisher in 1950msms.book.....H
+You've used 35 entries,
+            3039 wiz_defined-function locations,
+            906 strings with 11933 characters,
+and the built_in function-call counts, 15340 in all, are:
+= -- 1287
+> -- 1021
+< -- 20
++ -- 338
+- -- 301
+* -- 1236
+:= -- 2826
+add.period$ -- 35
+call.type$ -- 35
+change.case$ -- 242
+chr.to.int$ -- 44
+cite$ -- 36
+duplicate$ -- 657
+empty$ -- 965
+format.name$ -- 395
+if$ -- 3050
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 32
+newline$ -- 109
+num.names$ -- 142
+pop$ -- 261
+preamble$ -- 1
+purify$ -- 240
+quote$ -- 0
+skip$ -- 575
+stack$ -- 0
+substring$ -- 681
+swap$ -- 16
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 300
+warning$ -- 1
+while$ -- 138
+width$ -- 0
+write$ -- 353
+(There was 1 warning)

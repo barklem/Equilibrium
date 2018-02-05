@@ -1,0 +1,12 @@
+References:
+
+B01  = Bauschlicher et al 2001, Journal of Chemical Physics, Volume 115, Issue 3, pp. 1312-1318 (2001), table II (CrH)
+B05  = Burrows et al 2005, ApJ 624, 988 (TiH)
+C04  = Civis et al 2004, J. Mol. Struct. 695-696, 5 (NeH+)
+D03  = Dulick et al 2003, ApJ 594, 651  (FeH)
+DH88 = Davis and Hammer, 1988, ApJ (ZrO)
+DS82 = Delaval and Schamps, 1982 (FeCl)
+EST  = ESTIMATED from similar molecule
+G04  = Ghigo, Roos, Stancil and Weck, JCP, 2004, 121, 8194 prefering CASPT2 (CrH higher states)
+HH   = Huber and Herzberg (1979)
+IR   = Irikura (2007)

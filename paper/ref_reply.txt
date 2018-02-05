@@ -1,0 +1,84 @@
+REPLY TO REFEREE REPORT ON AA/2015/26961
+
+We thank the referee for their report, which has certainly helped us improve the results and their presentation.   The new manuscript has changes marked in blue, bold type.  
+
+Replies to comments by the referee are given below.
+
+REFEREE:
+
+This paper reports an update of the well-used Sauval and Tatum partition functions. This is overdue and I entirely agree that partition functions are important below 1000 K (I am writing this at about 296 K and at approximate LTE!)  However, in the 30 years since Sauval and Tatum, and 35+ since HH, there has been a huge amount of progress in both characterizing the states of diatomic molecules and in computing their partition functions. I do not think this work can be ignored and, worse, the paper involves presenting "new" partition functions for many molecules for which better partition functions are available in the literature. Besides many specialist (ie single molecule studies), the paper ignores compilations such as:
+
+author={Gamache, R R and Kennedy, S and Hawkins, R and Rothman, L S},
+title={Total internal partition sums for molecules in the terrestrial atmosphere},
+journal={J. Mol. Spectrosc.},
+volume={517},
+pages={407--425},
+year={2000}
+
+and
+
+Author = {Babou, Y. and Riviere, Ph. and Perrin, M-Y. and Soufiani, A.},
+Title = {{High-Temperature and Nonequilibrium Partition Function and Thermodynamic
+Data of Diatomic Molecules}},
+Journal = {{INTERNATIONAL JOURNAL OF THERMOPHYSICS}},
+Year = {{2009}},
+Volume = {{30}},
+Pages = {{416-438}}
+
+I fear a significant amount of extra work is needed to really make this work definitive.
+
+REPLY:
+
+There are several issues here.
+
+1) We take the last point first.  The referee states that "a significant amount of extra work is needed to make this work definitive".  This implies that the goal of the work is, or should be, to provide definitive data for each and every one of the ~300 molecules and ~300 atomic species, and seems to imply that this is a requirement for publication.  We feel we have addressed this point in the introduction, and disagree that it should be a requirement for publication.  We acknowledge in the introduction that providing a definitive set of data including ALL improvements since HH would be a major undertaking, and is not one that we are attempting.  We have a) made some/significant improvements to the input data with respect to HH (see below, the molecular constant data for ~30% of the molecules, all of the dissociation constants and all of the atoms is updated), b) we have extended the temperature range of the calculations significantly, c) we are making all our input data freely available, which , as we wrote, "provides a possible foundation for workers to be able to incorporate further improvements for molecules of particular interest".  Our view, is that this is a significant step forward and work that we would like to share, which could be used by others (or by us) to build more definitive data sets.   However, our personal view is that (at least in the kind of funding climate we work in) such an undertaking is probably beyond any individual or even small collaboration, and should be done in some distributed manner and in steps. 
+
+The bottom line for us is that we have done this work in the course of other scientific goals and hope to share it via a publication, and deem A&A the most suitable place for this.  We will not be undertaking the task of collecting a definitive data set for ~300 molecules.
+
+2) We are unsure that it is true to say that we have ignored all progress in the last 35 years (even on only diatomic molecules); however, we acknowledge that we may need to improve the presentation of this.  First, we point out that we present data not just for ~300 diatomic molecules, but also ~300 species of atoms (i.e. neutral atoms and their ions), based on up-to-date data from NIST, a point that seems to have been somewhat overlooked.  Even though the majority of the hard work here has been done by NIST, we believe this to be an important contribution for astrophysics, where many works (e.g, stellar atmosphere codes) use old compilations such as Irwin's or ST.  Secondly, regarding diatomic molecules we have employed updated data for 85 of the ~300 molecules using the compilation of Irikura (2007, 2009).  The compilation presents up-to-date constants for the ground states (which are most relevant for our calculation) of molecules, often the molecules of most interest among the ~300.  We have then updated data for 2 additional molecules, and added 3 new molecules.  Thus, we would argue that for 90 of the ~300 molecules (30%, and the most important 30%), we have accounted for progress during the last 35 years.  We also note that we have critically evaluated dissociation constants for all molecules, though this is primarily thanks to the extraordinary work of Luo.  We acknowledge, however, that our approach in presenting this has been perhaps overly cautious, not helped by statements such as "We make no claim that even a meaningful fraction of the improvements...over the last 30 odd years have been included;".  We have perhaps not emphasised the improvements, e.g. in the abstract, and one is perhaps left with the impression that the data is for the most part from HH.
+
+3) The referee states that "the paper involves presenting "new" partition functions for many molecules for which better partition functions are available in the literature", and gives two compilations as examples.   We understand that superficially one might think this, since as alluded to above, have perhaps underplayed the importance of the Irikura data; however, we do not think that this statement is correct.  Babou et al (2009) presents data for N2, N2+, NO, O2, CN, C2, CO and CO+, and Gamache et al (2000) for diatomic molecules CO, O2, NO, OH, HF, HCl, HBr, HI, ClO, N2, NO+.  All but two of these molecules are included in Irikura (2007, 2009); the only exceptions are HBr, which is not included in our compilation, and HI, which is probably not terribly astrophysically important.  Thus the statement that these other calculations are "better" seems probably unjustified.  We note that our work is better in a number respects, notably extent of temperature range, and the fact that Babou et al (2009) partition function data are not easily available (they are plotted and must be obtained from the authors).
+
+Anyway, in conclusion, we acknowledge that the points brought up by the referee may occur to the reader and we have added text and rephrased some of the text to better explain and emphasise the above.  We have added a concluding remarks section to better put our work in the context of the mentioned compilations and other studies.
+
+
+Other points:
+
+REFEREE:
+
+1. There are convergence difficulties with atomic partition functions going to very high (all) Rydberg states. This is sort of hinted at by reference to Hummer and Mihalas (1988) but should be discussed explicitly.
+
+REPLY:
+
+We are confused by this comment.  This is discussed explicitly and at length.  The paragraph beginning "For isolated atoms and molecules the partition function formally diverges due to an infinite number of Rydberg states ...." in Section 2, and in the 4th and 5th paragraphs of Section 3, including figures 6 and 7, which present explicit examples for the solar atmosphere and for Na I and K I, which as described in the text are cases where this problem is most important.
+
+REFEREE:
+
+2. I have no idea what is meant by "Gaussian 2 theory".
+
+REPLY: 
+
+We added an explanatory note at the first mention.
+
+REFEREE:
+
+3. The choice of molecules to omit seems rather odd. HeH+ is an important astronomical molecule (indeed it was probably the first one). Its partition function has been derived by
+
+author = {E. A. Engel AND N. Doss AND G. J. Harris AND J. Tennyson},
+title = {{An opacity for HeH$^+$ and its effect on models of cool, metal poor stars}},
+journal = MNRAS,
+year = {2005},
+volume = {357},
+pages = {471-477}
+
+Similarly NeH+ is currently being actively searched for. It is a simple closed shell system (like HeH+) so the comments about its ground state are puzzling.
+
+REPLY:  Indeed.  This is the bias of the authors towards stellar photospheres, where noble gases are rarely of interest, and thus we mistakenly discarded these.  HeH+ has been added in by hand with data from HH - we do not find any more recent data (note, the partition functions of Engel et al being derived from potential curves of Kolos and Peek (1976), which were considered in HH).  Regarding NeH+, the problem was not lack of identification of the ground state as stated in the manuscript, but simply that HH did not include sufficient spectroscopic constants to calculate it, so this was a misstatement.  NeH+ has now been included with recent data from the literature.
+
+REFEREE:
+
+4. How are Jmax and vmax in eq. (1) chosen for each molecule?
+
+REPLY:
+
+A paragraph was added to Section 2.

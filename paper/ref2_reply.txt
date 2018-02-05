@@ -1,0 +1,55 @@
+To the editor:
+
+We thank the editor for sending the paper for adjudication.
+
+To the referee:
+
+We thank the referee for their report.  A few minor comments below.
+
+REFEREE:
+
+p.1: Mention that molecules are also crucial for the interstellar
+medium and star-forming regions.
+
+REPLY:
+
+Done.
+
+REFEREE:
+
+p.2: Cite the actual Lawler, Sneden et al. articles on
+excitation levels and partition functions of rare Earths
+rather than just referring to private communication.
+
+and 
+
+p.5: Mention also the Lawler et al. studies, which to my knowledge are
+not included in NIST but have been used here to calculate the partition functions for rare Earths.
+
+REPLY:
+
+There is a misunderstanding here, which we have not made clear in the paper.  The Lawler et al. studies measure transition probabilities, which are indeed not in NIST.  The Lawler et al. / MOOG partition function data, are in many cases based on NIST atomic levels, just as ours are.  For some cases alternate sources are used: see example references cited in paper now.  We have adjusted the text to make this point clear, as well as added a few lines and a figure to the paper regarding the largest differences.   We have also simplified things by removing the mention of this data in the introduction; now all information is in section 3, and hopefully more clear.
+
+REFEREE:
+
+p.2: Please define the constants w_e, x_e, y_e, alpha_e, beta_e, gamma_e
+in Eqs. 2-5.
+
+REPLY:
+
+The constants are in fact defined by the equations (i.e. the constants are measured to reproduce observed energies).  They sometimes do have a physical interpretation, but it is not always simple and we think it would be excessive to reproduce such discussion here, especially when this is discussed in many textbooks.  We added a reference to Herzberg's book, which is the classical reference on this.
+
+REFEREE:
+
+p.2: The current explanation for the assessment of v_max is very unclear.
+Is the statement "when the first term of eqn. 2 is the smallest, the
+expansion is no longer useful as the error is larger than the sum" even correct?
+The statement "that the terms should not be more than half of the preceding
+term in order to be included in the summation, and the summation over v is
+concluded when the second term is more than half of the first term" also
+sounds strange, please check that this indeed what is intended.
+
+REPLY:
+
+The statement is correct.  We have reworded.
+

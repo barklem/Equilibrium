@@ -1,0 +1,5 @@
+How to handle isotopes?
+  good idea to have masses defined in atom files?  how to redefine later for different molecular isotopes?  Do we need mass for atomic partition funcs?
+  
+  No, we don't need mass for atomic partition functions
+  so perhaps better we define that for each molecule individually

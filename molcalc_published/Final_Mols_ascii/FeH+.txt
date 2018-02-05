@@ -1,0 +1,5 @@
+        D0        I1        I2
+ 2.1510000       0.0       0.5
+                                   label   name Lambda   2S+1    +/-    u/g             Te             we            wxe            wye             Be           alfe           game             De           bete             re   references
+                                                                                    [cm-1]         [cm-1]         [cm-1]         [cm-1]         [cm-1]         [cm-1]         [cm-1]         [cm-1]         [cm-1]           [AA]             
+END

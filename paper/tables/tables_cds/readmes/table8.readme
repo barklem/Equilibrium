@@ -1,0 +1,49 @@
+J/A+A/vol/page     Partition functions for molecules and atoms  (Barklem+, 2016)
+================================================================================
+Partition functions and equilibrium constants for diatomic molecules and atoms 
+of astrophysical interest
+     P. S. Barklem and R. Collet
+    <Astron. Astrophys. vol, page (year)>
+    =2016A&A...VVV.ppppI     (SIMBAD/NED BibCode)
+================================================================================
+Keywords: molecular data; atomic data;
+
+Description:
+    The table contains tabulated partition function data as a function
+    of temperature for 284 atoms and ions. The data as been computed
+    using energy level information extracted from the NIST database.
+    The first numerical entry in the header indicates the number of    
+    atoms and ions in the table.
+    The following line in the table contains a reference temperature
+    scale with 42 values (in K). The subsequent non-empty lines
+    contain the partition functions for each ion (one per row)
+    evaluated at the reference temperature values.
+    The format is ASCII.
+
+File Summary:
+--------------------------------------------------------------------------------
+  FileName   Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe          49        .   This file
+table8.txt     595      288   Partition functions for atoms and ions
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   2-  7  A6    ---     ---       Ion's symbol (1)
+   8-595  42(3x,E11.4)  ---	  Tabulated partition function values (1)
+--------------------------------------------------------------------------------
+Note (1):
+   The line immediately following the number of ions in the header
+   contains the 42 reference temperature values in the same format as
+   the actual partition function data.
+--------------------------------------------------------------------------------
+
+References:
+    Kramida, A., Ralchenko, Y., Reader, J., & NIST ASD Team. 2014,
+    National Institute of Standards Atomic Spectra Database ver. 5.2,
+    http://physics.nist.gov/asd
+================================================================================
+(End)          R. Collet [Aarhus University]                         08-Feb-2016

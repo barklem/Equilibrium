@@ -1,0 +1,32 @@
+ref_reply_2
+
+REFEREE:
+
+The authors have address all my minor concerns very well BUT they freely admit that they have only done 30% of the project because it is too much work to do all of it.  We are therefore faced with publishing an updated compilation which for 30% of the molecules (probably the most important ones) is an improvement but for the other 70% may well be worse that that provided in the literature during the last 35 years. 
+
+
+REPLY:
+
+There seems to be a fundamental impasse here.  Thus, we would like to withdraw the paper, for reasons outlined below.  We thank the referee and the editor for taking considerable time to review the manuscript.  
+
+As in the first review, the referee seems to define "the project" as providing a definitive partition function for each and every one of the 300 molecules.  We feel we have explained in our reply and in the manuscript, that *our* goals for the molecular calculations are related to completeness in terms of temperature range and range of covered molecules, which are at least equally as important in astrophysical applications such as modelling opacities in stellar and planetary atmosphere modelling as having the latest piece of data for every state in every molecule.     
+
+In stating that we "have only done 30% of the project", the referee is focussed only on the molecular partition functions and equilibrium constants.  Again, this completely ignores the work for atoms, the work on dissocation energies, and that we have in fact done calculations for these other 70% of the molecules over a much larger temperature range than we can find in the literature, as well as gone to considerable lengths to present the data all in a open way that can be built on.
+
+The referee states that "for the other 70% may well be worse that that provided in the literature during the last 35 years".  We think this an extremely negative way to phrase the state of affairs.  We have conceeded that perhaps one could find examples of calculations with a temperature range comparable to ours based on more accurate input molecular data, and thus probably better than ours.  But, as we have explained, these are among the molecules that are unlikely to be important, and if they should turn out to be important in a given astrophysical application, the user may replace them or replace and/or add to the data and do their own calculation.
+
+In summary, we feel that the referee report is overly negative, focussing on the shortcomings of and limitations of the range of the work with respect to some ideal vision of how the project should be (at least for part of it), with no acknowledgement of the large amount of work that has actually been done and the positive aspects of the work with respect to what is actually published.  We are unclear on why "freely admitting" the work's weaknesses compared to the ideal is seen as a negative.  It seems that both the editor and the referee do not accept our definition of the project, or that the project as presented is publishable i.e. that the work makes no contribution to astronomy and astrophysics with relation to already published data.  We disagree strongly with this, but we see no way forward that is acceptable to us, and so we would like to withdraw the paper.  
+
+
+
+Referee makes it sound like we are ignoring 35 years of data for over 200 molecules, yet has not provided an example of a published partition function that is significantly different to ours. Provided two examples in the first report which we showed to be in error.  Just because data are old and there are newer data does not mean the old data are wrong or useless.   
+
+There are many cases in astrophysics where the very latest methods and data are escewed in favour of using older methods and data for various reasons comparable to ours: completeness and as a starting point to futher development.  Is really every study in A&A definitive?  We can point to the example of abundance studies in stars, where it is not required that every study is the most accurate and up-to-date.  Sometimes other goals such as completeness and internal consistency are more important.
+
+The referee seems to imply that we are lazy.
+
+The referee seems to have no concept that ST and Irwin from the 1980's are the state of the art in our field.
+
+List of molecules is provided without explanation, and excludes for example all molecules containing Mg, despite that 5 of these in our work have updated data for the ground state.  We cannot enter a discussion over every piece of data in the work.  The referee is free to improve our work, if they are convinced this is of such importance.
+
+

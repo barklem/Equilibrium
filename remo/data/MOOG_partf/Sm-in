@@ -1,0 +1,38 @@
+62        Partition Functions for Samarium
+  temp (K)    Z_SmI   Z_SmII
+   001.000    1.000    2.000 
+   500.000    2.887    4.269 
+  1000.000    5.849    8.485 
+  1500.000    9.080   13.696 
+  2000.000   12.276   19.356 
+  2500.000   15.348   25.207 
+  3000.000   18.463   31.249 
+  3500.000   21.936   37.570 
+  4000.000   26.120   44.267 
+  4500.000   31.341   51.424 
+  5000.000   37.865   59.115 
+  5500.000   45.891   67.410 
+  6000.000   55.559   76.373 
+  6500.000   66.951   86.056 
+  7000.000   80.102   96.503 
+  7500.000   95.007  107.745 
+  8000.000  111.625  119.795 
+  8500.000  129.892  132.655 
+  9000.000  149.725  146.311 
+  9500.000  171.025  160.740 
+ 10000.000  193.684  175.910 
+    -1.000    0.000    0.000
+
+The Sm I & II energy levels were down loaded from nist.gov Oct. 2001.
+Fourteen new even parity levels of Sm I were added from L. Jai et al., JOSAB
+vol 10, p 1317 (1993).  Actually Jai et al. reported only 7 levels but the 
+J's are uncertain and all possibilities are included here. Jai's levels are 
+high, >35000cm-1, and thus don't have much effect on the partition function.
+Some, 6 even parity and 19 odd parity, fake levels were added in place of  
+missing Sm I levels in the nist.gov tables. Fake even parity levels range
+from 22000cm-1 to 27000cm-1, and fake odd parity range from 14000cm-1 to 
+21000cm-1.  These fake Sm I levels change the Sm I partition function by
+7.5% (15%) at 5000K (10000K).
+
+
+ 

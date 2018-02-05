@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>NIST: Finding List of Basic Atomic Spectroscopic Data</title>
+<style type="text/css"><!-- a   {text-decoration: none} td  {font-family: courier new,courier} --></style>
+</head>
+<body  bgcolor="white">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr valign="bottom">
+<td align="left"><img src="/Images/But/nist-pl-black.gif" width="136" 
+height="68" usemap="#NIST-PL" alt="NIST Physical Measurement Laboratory" border="0"></td>
+<td align="center"><a href="../index.html"><img src="../Images/HBannersm.jpg" border="0" width="438" height="54" alt="Handbook of Basic Atomic Spectroscopic Data" title="Handbook of Basic Atomic Spectroscopic Data"></a></td>
+<td align="right"><img src="../Images/spacer.gif" width="136" height="68" alt=""></td>
+</tr></table><br clear="all">
+<map name="NIST-PL">
+    <area shape="rect" coords="0,0,1,1" href="#start" alt="[skip navigation]">
+    <area shape="rect" coords="1,1,135,48" href="http://www.nist.gov" alt="National Institute of Standards and Technology">
+    <area shape="rect" coords="1,50,135,67" href="/" alt="NIST Physical Measurement Laboratory">
+</map>
+<a href="../index.html"><img src="../Images/mainPage.jpg" border="0" width="90" height="30" alt="Homepage - Introduction" title="Homepage - Introduction"></a><a href="findinglist.htm"><img src="../Images/findinglist_B.gif" border="0" width="50" 
+height="30" alt="Finding List" title="Finding List"></a><a href="../element_name.htm"><img src="../Images/element_name_G.gif" border="0" width="50" height="30" alt="Select element by name." title="Select element by name."></a><a href="../atomic_number.htm"><img src="../Images/atomic_number_G.gif" border="0" width="50" height="30" alt="Select element by atomic number." title="Select element by atomic number."></a><a href="../periodictable.htm"><img src="../Images/periodic_table_G.gif" border="0" width="50" height="30" alt="Select element from periodic table." title="Select element from periodic table."></a>
+<br><a href="findinglist_a.htm"><img src="../Images/switch_ascii.gif" border="0" width="90" height="30" alt="Switch to ASCII Version" title="Switch to ASCII Version"></a><a name="start"><!-- filler --></a>
+<h3 align="center">Finding List</h3>
+ <h3>Select a wavelength region</h3> 
+<table border="1" cellpadding="6" cellspacing="0" bgcolor="#ffffdd"> 
+ <tr align="right"><td><a href="findinglist1.htm">0 - 2000 &Aring;</a></td>
+<td><a href="findinglist2.htm">2000 - 2500 &Aring;</a></td> 
+<td><a href="findinglist3.htm">2500 - 2750 &Aring;</a></td></tr>
+<tr align="right"><td><a href="findinglist4.htm">2750 - 3000 &Aring;</a></td>
+<td><a href="findinglist5.htm">3000 - 3250 &Aring;</a></td> 
+<td><a href="findinglist6.htm">3250 - 3500 &Aring;</a></td></tr>
+<tr align="right"><td><a href="findinglist7.htm">3500 - 3750 &Aring;</a></td>
+ <td><a href="findinglist8.htm">3750 - 4000 &Aring;</a></td>
+ <td><a href="findinglist9.htm">4000 - 4250 &Aring;</a></td></tr>
+ <tr align="right"><td><a href="findinglist10.htm">4250 - 4500 &Aring;</a></td>
+<td><a href="findinglist11.htm">4500 - 5000 &Aring;</a></td>
+<td><a href="findinglist12.htm">5000 - 6000 &Aring;</a></td></tr>
+<tr align="right"><td><a href="findinglist13.htm">6000 - 7000 &Aring;</a></td>
+ <td><a href="findinglist14.htm">7000 - 8000 &Aring;</a></td>
+<td><a href="findinglist15.htm">&gt;  8000 &Aring;</a></td></tr>
+</table><br><br>
+<br clear="all"><a href="../index.html"><img src="../Images/mainPage.jpg" border="0" width="90" height="30" alt="Homepage - Introduction" title="Homepage - Introduction"></a><a href="findinglist.htm"><img src="../Images/findinglist_B.gif" border="0" width="50" 
+height="30" alt="Finding List" title="Finding List"></a><a href="../element_name.htm"><img src="../Images/element_name_G.gif" border="0" width="50" height="30" alt="Select element by name." title="Select element by name."></a><a href="../atomic_number.htm"><img src="../Images/atomic_number_G.gif" border="0" width="50" height="30" alt="Select element by atomic number." title="Select element by atomic number."></a><a href="../periodictable.htm"><img src="../Images/periodic_table_G.gif" border="0" width="50" height="30" alt="Select element from periodic table." title="Select element from periodic table."></a>
+<br><a href="findinglist_a.htm"><img src="../Images/switch_ascii.gif" border="0" width="90" height="30" alt="Switch to ASCII Version" title="Switch to ASCII Version"></a>
+<hr>
+</body>
+</html>

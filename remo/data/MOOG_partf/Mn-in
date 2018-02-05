@@ -1,0 +1,41 @@
+25        Partition Functions for Manganese
+  temp (K)    Z_MnI   Z_MnII
+   001.000    6.000    7.000 
+   500.000    6.000    7.000 
+  1000.000    6.000    7.000 
+  1500.000    6.000    7.001 
+  2000.000    6.000    7.006 
+  2500.000    6.002    7.027 
+  3000.000    6.011    7.076 
+  3500.000    6.040    7.165 
+  4000.000    6.102    7.302 
+  4500.000    6.217    7.492 
+  5000.000    6.402    7.739 
+  5500.000    6.672    8.048 
+  6000.000    7.043    8.423 
+  6500.000    7.529    8.871 
+  7000.000    8.143    9.398 
+  7500.000    8.897   10.009 
+  8000.000    9.804   10.713 
+  8500.000   10.875   11.514 
+  9000.000   12.123   12.420 
+  9500.000   13.558   13.434 
+ 10000.000   15.190   14.561 
+    -1.000    0.000    0.000
+
+The lowest configurations of Mn I are 3d^5^ 4s^2^ which has 9 missing
+high terms of 14 and the 3d^6^ 4s which has 6 missing high terms of 17.
+The lowest configuration of Mn II is 3d^5^ 4s which is missing only 5 high
+terms of 32 terms (missing 53 of 504 states).  The other low Mn II conf. is 
+the 3d^6^ which is missing ^1^D & ^1^S terms of 16 terms (6 of 210 states).
+Both partition functions should be ok because the missing states are high.
+
+The Mn I energy level list is from the nist.gov web site Dec. 2001. 
+Two fake Mn I J=7/2 levels near 59000 cm-1 were added for levels missing J's
+in the NIST tables. These 2 fake levels changed the partition function by
+0.0% (0/0%) at 5000K (10000K). 
+The Mn II energy level list is from the nist.gov web site Dec. 2001. 
+
+
+ 
+

@@ -1,0 +1,14 @@
+Do     sigma    mu         ip   
+4.58    1    9.33213399         
+state 2S+1  Lambda    Te       we       wxe    wye    Be         alfe     game      De      bete      re
+X       2      0        0.   1151.36   6.47   -0.007  0.7311   0.00565     0.      1.2E-6    0.     1.5719
+A       2      1     8000.   1044.41   6.20   -0.011  0.67516  0.00538     0.      1.10E-6   0.     1.63570
+B       2      0    24299.21 1031.03  16.85    0.15   0.7238   0.01048     0.      1.5E-6    0.     1.5798
+K       2      0    33718.2  1142.    11.5     0.     0.6775   0.005       0.      0.        0.     1.633
+D       2      1    35865.6   699.33  3.48     0.     0.5238   0.0041      0.      1.0E-6    0.     1.8571
+L       2      1    40661.    718     0.       0.     0.549    0.          0.      0.        0.     1.814
+end 
+data from Huber & Herzberg
+Do from L.A. Curtiss, K. Raghavachari, G.W. Trucks and J.A. Pople J. Chem. Phys. 94 (1991), p. 7221. 
+Agrees with Naulin, Christian; Costes, Michel; Moudden, Zakkaria; Ghanem, Naima; Dorthe, Gérard, Chemical Physics Letters, 202, Issue 5, p.452-458 (1993)
+

@@ -1,0 +1,13 @@
+Do     sigma    mu          Ip
+0.73      2    0.50404975   -3.
+state 2S+1  Lambda       Te       we       wxe      wye    Be      alfe    game    De     bete    re
+X       2     0          0.     4401.213  121.336   0.    60.8530  3.0622    0.   4.71E-2  0.   0.74144
+B       2     0      91700.0   1358.09   20.888     0.    20.0154  1.1845    0.   1.625E-2 0.   1.2928   
+c       2     2      95838.5   2466.89   63.51      0.552 31.07    1.425     0.   1.95E-2  0.   1.0376
+a       2     0      95936.1   2664.83   71.65      0.92  34.216   1.671     0.   2.16E-2  0.   0.98879
+end 
+data from  Huber & Herzberg for H2
+Do from Sauval & Tatum
+H&H give Do estimate only, 1-2 eV
+seems very uncertain
+Ip from Sauval & Tatum

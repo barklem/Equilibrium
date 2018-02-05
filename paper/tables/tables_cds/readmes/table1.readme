@@ -1,0 +1,30 @@
+J/A+A/vol/page     Partition functions for molecules and atoms  (Barklem+, 2016)
+================================================================================
+Partition functions and equilibrium constants for diatomic molecules and atoms 
+of astrophysical interest
+     P. S. Barklem and R. Collet
+    <Astron. Astrophys. vol, page (year)>
+    =2016A&A...VVV.ppppI     (SIMBAD/NED BibCode)
+================================================================================
+Keywords: molecular data; atomic data;
+
+Description:
+    The table contains dissociation energies from the literature, and final 
+    adopted values.
+
+    The format is ASCII.
+
+
+File Summary:
+--------------------------------------------------------------------------------
+  FileName   Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe          47        .   This file
+table1.txt      53       92   Ionisation energies for all elements
+--------------------------------------------------------------------------------
+
+References:
+    Haynes, W. M., ed. 2010, CRC Handbook of Chemistry and Physics, 91st edn.
+    (CRC Press, Taylor and Francis Group)
+================================================================================
+(End)          R. Collet [Aarhus University]                         08-Feb-2016

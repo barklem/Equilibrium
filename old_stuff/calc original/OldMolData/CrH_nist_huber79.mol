@@ -1,0 +1,17 @@
+Do     sigma    mu         ip   
+1.93     1      0.63        0.    
+state 2S+1  Lambda    Te       we       wxe    wye    Be         alfe     game      De      bete      re
+X       6      0        0.   1656.05115  30.49123    0.    6.22222642   0.18097808      0.     3.48922E-4   0.      1.6550
+A       6      0    11552.   1524.80     22.28       0.    5.342675     0.141349        0.     2.5458-4     0.      1.7870
+1P      6      1    13489.   1574.      28.8    0.    5.        0.15         0.     2.5e-4         0.      1.749   
+1D      6      2    14994.   1530.      24.5    0.    5.        0.15         0.     2.5e-4         0.      1.741 
+3S      6      0    24683.    763.      71.9    0.    5.        0.15         0.     2.5e-4         0.      2.762
+2P      6      1    28242.   1865.      21.6    0.    5.        0.15         0.     2.5e-4         0.      1.597
+3P      6      1    29446.   1692.      1697.   0.    5.        0.15         0.     2.5e-4         0.      1.618   
+end 
+data from Huber & Herzberg
+where possible updated from compiled data in Ghigo, Roos, Stancil and Weck, JCP, 2004, 121, 8194
+prefereing expt, CASPT2, then MSPT2
+rotational data Be and De for X and A updated from Bauschilder et al 2002 table II
+rotational contansts just guesses for higher states, but they often stay relatively constant in a molecule
+only has effect at high T> 5000....see for example MgH

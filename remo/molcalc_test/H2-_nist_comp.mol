@@ -1,0 +1,8 @@
+Do     sigma    mu          Ip
+1.22      2    0.50404975   -3.
+state 2S+1  Lambda       Te       we       wxe      wye    Be      alfe    game    De     bete    re
+X       2     0          0.     1700.      35.       0.   25.3     0.398    0.     0.     0.     1.15
+end 
+data from NIST "big book"
+mu from Huber & Herzberg (but not used here anyway) 
+Ip from Sauval & Tatum

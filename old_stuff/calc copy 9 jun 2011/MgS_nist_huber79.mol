@@ -1,0 +1,10 @@
+Do     sigma    mu            ip 
+3.545   1    13.7042725        
+state 2S+1  Lambda       Te       we       wxe     wye      Be         alfe     game     De        bete       re
+X       1      0         0.     528.74    2.704     0.     0.26797   0.00176     0.   0.276E-6      0.      2.1425
+B       1      0     23052.59   497.34    2.333     0.     0.25518   0.00155     0.   0.269E-6      0.      2.1956
+end 
+data from Huber & Herzberg
+Huber and Herzberg say their Do < 2.4 is very uncertain, and some measurement quoted as high as 4.3
+we adopt value from Huxley & Murrell, J. Chem. Soc. Faraday Trans. 2, 1983, 79, 323
+Do = De - 0.5 we + .25 wxe = 3.578 - 0.0327 = 3.545

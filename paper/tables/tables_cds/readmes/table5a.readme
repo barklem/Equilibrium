@@ -1,0 +1,48 @@
+J/A+A/vol/page     Partition functions for molecules and atoms  (Barklem+, 2016)
+================================================================================
+Partition functions and equilibrium constants for diatomic molecules and atoms 
+of astrophysical interest
+     P. S. Barklem and R. Collet
+    <Astron. Astrophys. vol, page (year)>
+    =2016A&A...VVV.ppppI     (SIMBAD/NED BibCode)
+================================================================================
+Keywords: molecular data; atomic data;
+
+Description:
+    Table 5a contains a list of keys to bibliographic references for
+    the atomic energy level data that was extracted from NIST Atomic
+    Spectra Database and used in the present work to compute atomic
+    partition functions.
+    Each entry in the table contains the element symbol, the
+    ionisation stage (I for neutral, and II and III for singly and
+    doubly ionised, respectively), and one or more citation keys.
+    The citation keys are abbreviations of the full bibliographic
+    references which are made available in Table 5b in BibTeX format.
+    The format is ASCII.
+
+File Summary:
+--------------------------------------------------------------------------------
+  FileName   Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe          48        .   This file
+table5a.txt     91      260   Partition functions for atoms and ions
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   4-  5  A2    ---     Elem.     Element's symbol (1)
+   9- 11  A3    ---	Ion       Ionisation stage
+  17- 91  A75   ---     References  Citation Keys 
+--------------------------------------------------------------------------------
+Note (1):
+    D and T refer to 'deuterium' and 'tritium', respectively.
+--------------------------------------------------------------------------------
+
+References:
+    Kramida, A., Ralchenko, Y., Reader, J., & NIST ASD Team. 2014,
+    National Institute of Standards Atomic Spectra Database ver. 5.2,
+    http://physics.nist.gov/asd
+================================================================================
+(End)          R. Collet [Aarhus University]                         09-Feb-2016

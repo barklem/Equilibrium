@@ -1,0 +1,39 @@
+21        Partition Functions for Scandium
+  temp (K)    Z_ScI   Z_ScII
+   001.000    4.000    3.000 
+   500.000    7.696   11.315 
+  1000.000    8.709   13.103 
+  1500.000    9.106   14.215 
+  2000.000    9.323   15.345 
+  2500.000    9.491   16.554 
+  3000.000    9.690   17.808 
+  3500.000    9.983   19.073 
+  4000.000   10.423   20.327 
+  4500.000   11.045   21.560 
+  5000.000   11.871   22.766 
+  5500.000   12.915   23.944 
+  6000.000   14.185   25.096 
+  6500.000   15.685   26.223 
+  7000.000   17.420   27.328 
+  7500.000   19.391   28.413 
+  8000.000   21.603   29.482 
+  8500.000   24.059   30.537 
+  9000.000   26.761   31.580 
+  9500.000   29.712   32.614 
+ 10000.000   32.912   33.641 
+    -1.000    0.000    0.000
+
+The Sc I energy level list is from the nist.gov web site Dec. 2001. 
+The Sc II energy level list is from the nist.gov web site Dec. 2001. 
+
+Jim Lawler
+Arthur and Aurelia Schawlow Professor of Physics
+University of Wisconsin
+
+1150 University Ave.
+Madison, WI 53706
+
+tele: 608 262 2918
+fax:  608 265 2334
+
+

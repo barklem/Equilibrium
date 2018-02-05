@@ -1,0 +1,44 @@
+07        Partition Functions for Nitrogen
+  temp (K)    Z_N I   Z_N II
+   001.000    4.000    1.000 
+   500.000    4.000    7.039 
+  1000.000    4.000    7.939 
+  1500.000    4.000    8.274 
+  2000.000    4.000    8.448 
+  2500.000    4.000    8.555 
+  3000.000    4.001    8.630 
+  3500.000    4.004    8.688 
+  4000.000    4.010    8.738 
+  4500.000    4.022    8.786 
+  5000.000    4.041    8.835 
+  5500.000    4.069    8.885 
+  6000.000    4.105    8.938 
+  6500.000    4.152    8.995 
+  7000.000    4.208    9.054 
+  7500.000    4.274    9.116 
+  8000.000    4.348    9.180 
+  8500.000    4.431    9.246 
+  9000.000    4.522    9.314 
+  9500.000    4.620    9.383 
+ 10000.000    4.724    9.453 
+    -1.000    0.000    0.000
+
+The N I energy level list is from the nist.gov web site Dec. 2001. 
+Some, 10 , fake N I levels above 100000cm-1 have been added
+for levels missing in nist.gov tables. These levels changed the partition
+function by  0.0% (0.0%) at 5000K (10000K).
+The N II energy level list is from the nist.gov web site Dec. 2001. 
+Some, 4  , fake N II levels above 200000cm-1 have been added
+for levels missing in nist.gov tables. These levels changed the partition
+function by  0.0% (0.0%) at 5000K (10000K).
+Jim Lawler
+Arthur and Aurelia Schawlow Professor of Physics
+University of Wisconsin
+
+1150 University Ave.
+Madison, WI 53706
+
+tele: 608 262 2918
+fax:  608 265 2334
+
+

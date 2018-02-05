@@ -1,0 +1,43 @@
+23        Partition Functions for Vanadium
+  temp (K)    Z_V I   Z_V II
+   001.000    4.000    1.000 
+   500.000   13.274   14.621 
+  1000.000   19.575   19.385 
+  1500.000   24.348   22.797 
+  2000.000   28.321   25.979 
+  2500.000   31.724   28.973 
+  3000.000   34.790   31.824 
+  3500.000   37.738   34.613 
+  4000.000   40.755   37.420 
+  4500.000   43.986   40.307 
+  5000.000   47.543   43.313 
+  5500.000   51.507   46.462 
+  6000.000   55.938   49.759 
+  6500.000   60.878   53.205 
+  7000.000   66.359   56.795 
+  7500.000   72.404   60.520 
+  8000.000   79.027   64.371 
+  8500.000   86.239   68.340 
+  9000.000   94.043   72.419 
+  9500.000  102.440   76.601 
+ 10000.000  111.424   80.879 
+    -1.000    0.000    0.000
+
+The V I energy level list is from the nist.gov web site Dec. 2001. 
+The V II energy level list is from the nist.gov web site Dec. 2001. 
+The lowest configurations of V I are 3d^3^ 4s^2^ which has a missing    
+^2^D term and 3d^4^ 4s which is missing 12 higher terms.
+The lowest configurations of V II are 3d^4^ which is missing only a high   
+^1^S term and 3d^3^ 4s which is not missing any terms.
+Both partition functions should be ok.
+Jim Lawler
+Arthur and Aurelia Schawlow Professor of Physics
+University of Wisconsin
+
+1150 University Ave.
+Madison, WI 53706
+
+tele: 608 262 2918
+fax:  608 265 2334
+
+

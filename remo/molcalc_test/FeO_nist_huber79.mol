@@ -1,0 +1,15 @@
+Do     sigma    mu         ip   
+4.20    1    12.43815367    8.71     
+state 2S+1  Lambda    Te       we       wxe    wye    Be         alfe     game      De      bete      re
+# Be is a guess only
+X       5      2        0.    965.       0.     0.    0.51        0.        0.       0.      0.       1.57  
+A       5      0     3948.    880.53     4.63   0.    0.51271    0.00376   0.       0.66E-6 0.       1.6259
+# Be is guess only
+B       5      1    14404.    650.       5.     0.    0.51        0.        0.       0.      0.       0. 
+# data and designations missing for many levels
+#a
+#b
+#cd
+#c
+end 
+data from Huber & Herzberg

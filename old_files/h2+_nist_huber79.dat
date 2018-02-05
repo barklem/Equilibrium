@@ -1,0 +1,8 @@
+Do     sigma     #states
+2.6508    2        3
+state   Te       gel     Be      alfe      we       wxe
+X         0.      2     30.2     1.68    2321.     66.2
+B     93804.      2      1.530   0.031    437.      5.24
+C    102696.      4      1.899   0.075    266.      6.45
+### 
+data from NIST Chemistry webbook, Huber & Herzberg

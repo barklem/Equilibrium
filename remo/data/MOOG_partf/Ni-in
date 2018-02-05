@@ -1,0 +1,44 @@
+28        Partition Functions for Nickel
+  temp (K)    Z_NiI   Z_NiII
+   001.000    9.000    6.000 
+   500.000   13.463    6.052 
+  1000.000   17.151    6.458 
+  1500.000   20.219    6.947 
+  2000.000   22.701    7.393 
+  2500.000   24.709    7.828 
+  3000.000   26.353    8.299 
+  3500.000   27.729    8.831 
+  4000.000   28.906    9.430 
+  4500.000   29.943   10.093 
+  5000.000   30.886   10.811 
+  5500.000   31.772   11.574 
+  6000.000   32.635   12.373 
+  6500.000   33.503   13.201 
+  7000.000   34.402   14.050 
+  7500.000   35.354   14.917 
+  8000.000   36.381   15.797 
+  8500.000   37.500   16.686 
+  9000.000   38.728   17.584 
+  9500.000   40.082   18.489 
+ 10000.000   41.573   19.399 
+    -1.000    0.000    0.000
+
+The lowest configurations of Ni I are 3d^8^ 4s^2^ which has 1 missing
+high ^1^S term of 5 (missing 1 of 45 states), the 3d^9^ 4s which is 
+complete, and the 3d^10^ which is complete.  
+The lowest configurations of Ni II is 3d^9^ which is complete.
+The other low Ni II configuration is the 3d^8^ 4s which is missing only 
+1 ^2^S term of 7 terms (missing 2 of 90 states).
+The Ni I energy level list is from the nist.gov web site Dec. 2001. 
+The Ni II energy level list is from the nist.gov web site Dec. 2001. 
+Jim Lawler
+Arthur and Aurelia Schawlow Professor of Physics
+University of Wisconsin
+
+1150 University Ave.
+Madison, WI 53706
+
+tele: 608 262 2918
+fax:  608 265 2334
+
+
