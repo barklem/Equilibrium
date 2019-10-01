@@ -1,0 +1,48 @@
+Byte-by-byte Description of file (#): table7.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  5  A5    ---     Ion       Ion's symbol
+   8- 19  E12.6  Pa     logpK1    Equilibrium constant values for T=1.00000e-05
+  22- 33  E12.6  Pa     logpK2    Equilibrium constant values for T=1.00000e-04
+  36- 47  E12.6  Pa     logpK3    Equilibrium constant values for T=1.00000e-03
+  50- 61  E12.6  Pa     logpK4    Equilibrium constant values for T=1.00000e-02
+  64- 75  E12.6  Pa     logpK5    Equilibrium constant values for T=1.00000e-01
+  78- 89  E12.6  Pa     logpK6    Equilibrium constant values for T=1.50000e-01
+  92-103  E12.6  Pa     logpK7    Equilibrium constant values for T=2.00000e-01
+ 106-117  E12.6  Pa     logpK8    Equilibrium constant values for T=3.00000e-01
+ 120-131  E12.6  Pa     logpK9    Equilibrium constant values for T=5.00000e-01
+ 134-145  E12.6  Pa     logpK10   Equilibrium constant values for T=7.00000e-01
+ 148-159  E12.6  Pa     logpK11   Equilibrium constant values for T=1.00000e+00
+ 162-173  E12.6  Pa     logpK12   Equilibrium constant values for T=1.30000e+00
+ 176-187  E12.6  Pa     logpK13   Equilibrium constant values for T=1.70000e+00
+ 190-201  E12.6  Pa     logpK14   Equilibrium constant values for T=2.00000e+00
+ 204-215  E12.6  Pa     logpK15   Equilibrium constant values for T=3.00000e+00
+ 218-229  E12.6  Pa     logpK16   Equilibrium constant values for T=5.00000e+00
+ 232-243  E12.6  Pa     logpK17   Equilibrium constant values for T=7.00000e+00
+ 246-257  E12.6  Pa     logpK18   Equilibrium constant values for T=1.00000e+01
+ 260-271  E12.6  Pa     logpK19   Equilibrium constant values for T=1.50000e+01
+ 274-285  E12.6  Pa     logpK20   Equilibrium constant values for T=2.00000e+01
+ 288-299  E12.6  Pa     logpK21   Equilibrium constant values for T=3.00000e+01
+ 302-313  E12.6  Pa     logpK22   Equilibrium constant values for T=5.00000e+01
+ 316-327  E12.6  Pa     logpK23   Equilibrium constant values for T=7.00000e+01
+ 330-341  E12.6  Pa     logpK24   Equilibrium constant values for T=1.00000e+02
+ 344-355  E12.6  Pa     logpK25   Equilibrium constant values for T=1.30000e+02
+ 358-369  E12.6  Pa     logpK26   Equilibrium constant values for T=1.70000e+02
+ 372-383  E12.6  Pa     logpK27   Equilibrium constant values for T=2.00000e+02
+ 386-397  E12.6  Pa     logpK28   Equilibrium constant values for T=2.50000e+02
+ 400-411  E12.6  Pa     logpK29   Equilibrium constant values for T=3.00000e+02
+ 414-425  E12.6  Pa     logpK30   Equilibrium constant values for T=5.00000e+02
+ 428-439  E12.6  Pa     logpK31   Equilibrium constant values for T=7.50000e+02
+ 442-453  E12.6  Pa     logpK32   Equilibrium constant values for T=1.00000e+03
+ 456-467  E12.6  Pa     logpK33   Equilibrium constant values for T=1.50000e+03
+ 470-481  E12.6  Pa     logpK34   Equilibrium constant values for T=2.00000e+03
+ 484-495  E12.6  Pa     logpK35   Equilibrium constant values for T=3.00000e+03
+ 498-509  E12.6  Pa     logpK36   Equilibrium constant values for T=4.00000e+03
+ 512-523  E12.6  Pa     logpK37   Equilibrium constant values for T=5.00000e+03
+ 526-537  E12.6  Pa     logpK38   Equilibrium constant values for T=6.00000e+03
+ 540-551  E12.6  Pa     logpK39   Equilibrium constant values for T=7.00000e+03
+ 554-565  E12.6  Pa     logpK40   Equilibrium constant values for T=8.00000e+03
+ 568-579  E12.6  Pa     logpK41   Equilibrium constant values for T=9.00000e+03
+ 582-593  E12.6  Pa     logpK42   Equilibrium constant values for T=1.00000e+04
+--------------------------------------------------------------------------------
