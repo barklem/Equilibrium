@@ -27,7 +27,7 @@
 			"file": "molcalc.pro",
 			"settings":
 			{
-				"buffer_size": 6581,
+				"buffer_size": 6687,
 				"line_ending": "Unix"
 			}
 		},
@@ -43,7 +43,7 @@
 			"file": "collate.pro",
 			"settings":
 			{
-				"buffer_size": 29205,
+				"buffer_size": 29476,
 				"line_ending": "Unix"
 			}
 		},
@@ -64,9 +64,14 @@
 		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -74,7 +79,11 @@
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 0.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
 	},
 	"distraction_free":
 	{
@@ -90,7 +99,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -126,12 +135,13 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
 					"file": "create_mols.pro",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 15641,
@@ -152,14 +162,16 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3015.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
 					"file": "Final_Mols_ascii/CaS.txt",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 1136,
@@ -182,14 +194,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
 					"file": "molcalc.pro",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6581,
+						"buffer_size": 6687,
 						"regions":
 						{
 						},
@@ -210,11 +224,13 @@
 						"translation.y": 2319.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
 					"file": "plotmol.pro",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 13235,
@@ -235,17 +251,19 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 239.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
 					"file": "collate.pro",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 29205,
+						"buffer_size": 29476,
 						"regions":
 						{
 						},
@@ -263,9 +281,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7045.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -277,6 +296,7 @@
 				{
 					"buffer": 5,
 					"file": "Final_Collated_Results/Mols_ascii/H2.txt",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 14160,
@@ -301,10 +321,12 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 0,
@@ -326,6 +348,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -333,7 +356,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -369,14 +392,25 @@
 		]
 	},
 	"menu_visible": true,
-	"replace":
+	"output.SublimeLinter":
 	{
 		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "molcalc.sublime-project",
+	"replace":
+	{
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -389,6 +423,7 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -398,10 +433,26 @@
 		],
 		"width": 380.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 150.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }

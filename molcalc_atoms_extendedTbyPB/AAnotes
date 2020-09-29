@@ -1,0 +1,35 @@
+notes,
+
+edit T grid in molcalc.pro
+
+run molcalc, 'mollist.3'  in IDL
+
+then
+
+IDL> restore, 'alldata.sav'
+IDL> help
+% At $MAIN$          
+ATOMID          STRING    = Array[284]
+ATOM_POTION     DOUBLE    = Array[284]
+LGKPMOL         DOUBLE    = Array[58, 1201]
+MOLID           STRING    = Array[58]
+QATOM           DOUBLE    = Array[284, 1201]
+QMOL            DOUBLE    = Array[58, 1201]
+T               FLOAT     = Array[1201]
+Compiled Procedures:
+    $MAIN$
+
+Compiled Functions:
+
+IDL> save, filename = 'allatomdata_vlargeTgrid.sav', atomid, atom_potion, qatom, t
+
+
+Then as a check
+
+     
+IDL> ind = where(~finite(qatom))
+IDL> print, ind
+          -1
+
+
+

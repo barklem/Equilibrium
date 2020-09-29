@@ -1,0 +1,121 @@
+# Input file for molcalc
+#
+# List of Atoms to calculate partition functions for
+# All atoms needed for the molecules must be included
+#
+# atom           energy level file
+# identifier
+#
+    H+           H+.atom
+    H            H_nist.atom
+    H-           H-.atom
+    Li           Li_nist.atom
+    B            B_nist.atom
+    C            C_nist.atom
+    C-           C-.atom
+    N            N_nist.atom
+# shouldn't exist, elect affin < 0    N-           N-.atom
+    N+           NII_nist.atom
+    O            O_nist.atom
+    OI           OI_nist.atom
+    Test         Test_nist.atom
+    O-           O-.atom
+    F            F_nist.atom
+    F-           F-.atom
+    Na           Na_nist.atom
+    Mg           Mg_nist.atom
+    Al           Al_nist.atom
+    Si           Si_nist.atom
+    Si-          Si-.atom
+    S            S_nist.atom
+    S-           S-.atom
+    Cl           Cl_nist.atom
+    Cl-          Cl-.atom
+    K            K_nist.atom
+    Ca           Ca_nist.atom
+    Sc           Sc_nist.atom
+    Ti           Ti_nist.atom
+    V            V_nist.atom
+    Cr           Cr_nist.atom
+    Fe           Fe_nist.atom
+    Y            Y_nist1.atom
+    Zr           Zr_nist1.atom
+    La           La_nist1.atom
+end
+#
+# List of Molecules to calculate properties for
+# Assumed that energy levels and partition functions are isotope independent
+# and thus only mass need be defined differently for possible isotopes
+#
+### At present, usual isotopic mixtures are taken for atomic masses
+### Test case only at present
+#
+# The list is kept general, in the sense that it allows molecules with more than 2 atoms
+# but whether we'll ever be able to calculate for these is another issue entirely
+# Huber and Herzberg lists only deal with diatomic, and usual molecular parameters 
+# have no meaning
+# A possiblility is to use the NIST thermodynamical data
+#
+# Molecule     Molecular data file   number  atom1 mass1   atom2 mass2   etc for required
+# identifer                          atoms         [u]           [u]     number atoms
+#  
+  H2+          H2+_nist_huber79.mol    2     H     1.008   H+    1.008  
+  H2           H2_nist_huber79.mol     2     H     1.008   H     1.008 
+  H2-          H2-_nist_huber79.mol    2     H     1.008   H-    1.008
+#  H2-          H2-_nist_comp.mol    2     H     1.008   H-    1.008
+  CH           CH_nist_huber79.mol     2     C    12.011   H     1.008
+  CH-          CH_nist_huber79.mol     2     C-   12.011   H     1.008
+  C2           C2_nist_huber79.mol     2     C    12.011   C    12.011  
+  C2-          C2-_nist_huber79.mol    2     C    12.011   C-   12.011 
+  CN           CN_nist_huber79.mol     2     C    12.011   N    14.007  
+  CN-          CN-_nist_huber79.mol    2     C-   12.011   N    14.007 
+  NH           NH_nist_huber79.mol     2     N    14.007   H     1.008 
+  N2           N2_nist_huber79.mol     2     N    14.007   N    14.007
+  OH           OH_nist_huber79.mol     2     O    15.9994  H     1.008
+  OH-          OH-_nist_huber79.mol    2     O-   15.9994  H     1.008
+  BO           BO_nist_huber79.mol     2     O    15.9994  B    10.81
+  CO           CO_nist_huber79.mol     2     O    15.9994  C    12.011
+  NO+          NO+_nist_huber79.mol    2     O    15.9994  N+   14.007
+  NO           NO_nist_huber79.mol     2     O    15.9994  N    14.007
+  O2           O2_nist_huber79.mol     2     O    15.9994  O    15.9994
+  HF           HF_nist_huber79.mol     2     F    18.998   H     1.008
+  NaH          NaH_nist_huber79.mol    2     Na   22.989   H     1.008
+  MgH          MgH_nist_huber79.mol    2     Mg   24.305   H     1.008
+  MgO          MgO_nist_huber79.mol    2     Mg   24.305   O    15.9994
+  AlH          AlH_nist_huber79.mol    2     Al   26.982   H     1.008 
+  AlO          AlO_nist_huber79.mol    2     Al   26.982   O    15.9994
+  AlF          AlF_nist_huber79.mol    2     Al   26.982   F    18.998
+  Al2          Al2_nist_huber79.mol    2     Al   26.982   Al   26.982
+  SiH          SiH_nist_huber79.mol    2     Si   28.086   H     1.008
+  SiH-         SiH-_nist_huber79.mol   2     Si-  28.086   H     1.008
+  SiC          SiC_nist_huber79.mol    2     Si   28.086   C    12.011 
+  SiN          SiN_nist_huber79.mol    2     Si   28.086   N    14.007 
+  SiO          SiO_nist_huber79.mol    2     Si   28.086   O    15.9994 
+  SiF          SiF_nist_huber79.mol    2     Si   28.086   F    18.998 
+  Si2          Si2_nist_huber79.mol    2     Si   28.086   Si   28.086
+  SH           SH_nist_huber79.mol     2     S    32.060   H     1.008
+  SH-          SH-_nist_huber79.mol    2     S-   32.060   H     1.008
+  CS           CS_nist_huber79.mol     2     S    32.060   C    12.011
+  NS           NS_nist_huber79.mol     2     S    32.060   N    14.007
+  SO           SO_nist_huber79.mol     2     S    32.060   O    15.9994
+  MgS          MgS_nist_huber79.mol    2     S    32.060   Mg   24.305
+  AlS          AlS_nist_huber79.mol    2     S    32.060   Al   26.982
+  SiS          SiS_nist_huber79.mol    2     S    32.060   Si   28.086
+  S2           S2_nist_huber79.mol     2     S    32.060   S    32.060
+  HCl          HCl_nist_huber79.mol    2     Cl   35.453   H     1.008
+  LiCl         LiCl_nist_huber79.mol   2     Cl   35.453   Li    6.94
+  NaCl         NaCl_nist_huber79.mol   2     Cl   35.453   Na   22.989
+  AlCl         AlCl_nist_huber79.mol   2     Cl   35.453   Al   26.982
+  CaH          CaH_nist_huber79.mol    2     Ca   40.08    H     1.008
+  CaF          CaF_nist_huber79.mol    2     Ca   40.08    F    18.998
+  CaCl         CaCl_nist_huber79.mol   2     Ca   40.08    Cl   35.453
+  ScO          ScO_nist_huber79.mol    2     Sc   44.956   O    15.9994
+  TiO          TiO_nist_huber79.mol    2     Ti   47.900   O    15.9994
+  TiS          TiS_nist_huber79.mol    2     Ti   47.900   S    32.060
+  VO           VO_nist_huber79.mol     2     V    50.941   O    15.9994 
+  CrO          CrO_nist_huber79.mol    2     Cr   51.996   O    15.9994  
+  FeO          FeO_nist_huber79.mol    2     Fe   55.847   O    15.9994  
+  YO           YO_nist_huber79.mol     2     Y    88.9059  O    15.9994  
+  ZrO          ZrO_nist_huber79.mol    2     Zr   91.220   O    15.9994  
+  LaO          LaO_nist_huber79.mol    2     La  138.9055  O    15.9994 
+end molecules

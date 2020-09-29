@@ -1,0 +1,11 @@
+1.262
+# C- has two known bound states
+# 4S (ground) and 2D (1.23 eV)
+#  see Haeffler et al JPhysB 1996
+#  or  Pegg et al JPhysB 1993
+# 
+  3/2  | 0.000
+       |
+  3/2  | 9920.
+  5/2  | 9920.
+###

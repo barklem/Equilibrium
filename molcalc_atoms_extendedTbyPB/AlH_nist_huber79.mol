@@ -1,0 +1,16 @@
+Do       sigma     mu        ip   
+3.0600     1     0.97153602      
+state 2S+1  Lambda       Te      we       wxe    wye      Be          alfe     game       De        bete     re
+X       1      0         0.      1682.56  29.09  0.239    6.3907     0.1858    0.00161   3.565E-4  -0.047E-4  1.6478
+# next from Herzberg
+a       3      1     12000.      1688.    0.     0.       6.704      0.        0.        4E-4       0.        1.6088
+# Te taken from Herzberg
+A       1      1     23763.      1082.76 0.      0.       6.3869     0.7323    0.        6.200E-4   0.        1.648
+# next from Herzberg
+b       3      0     38220.      1683.   0.      0.       6.759      0.        0.        4.36E-4    0.        1.602
+C       1      0     44676.      1575.3  125.5   0.       6.664      0.544     0.        5.5E-4     0.        1.6136
+#D
+# from Herzberg
+E       1      1     53396.      850.    0.      0.       5.620      0.        0.        10.0E-4    0.        1.7571
+end 
+data Huber & Herzberg

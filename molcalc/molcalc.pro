@@ -26,6 +26,8 @@ atomdir = '../remo/molcalc_test/atompf/'
 ;atomfile = '../remo/molcalc_test/allatomdata_new.sav'
 atomfile = '../remo/molcalc_test/alldata_atomsonly.sav'
 atomfile = '../remo/allatomdata_new.sav'
+atomfile = '../molcalc_atoms_extendedTbyPB/allatomdata_vlargeTgrid.sav'
+atomfile = '../molcalc_atoms_extendedTbyPB/allatomdata_exlargeTgrid.sav'
 moldir = './Final_Mols_idl/'  ; should have ending slash
 outdir1 = './PartFuncs_Results/'
  
@@ -38,6 +40,8 @@ outdir1 = './PartFuncs_Results/'
 ;T = [1e-5, 1e-4, 1e-3, 1e-2, 0.1, 0.15, 0.2, 0.3, 0.5, 0.7, 1.0, 1.3, 1.7, 2.0, 3.0, 5.0, 7., 10., 15., 20., 30., 50., 70., $
 ;     100., 130., 170., 200., 250., 300., 500., 700., 1000., 1500., 2000., 3000., 4000., 5000., 6000., 7000., 8000., 9000., 10000. ]
 T = 10.^(findgen(1001)/100.-6)
+T = 10.^(findgen(1201)/100.-6)
+  T = 10.^(findgen(12*400+1)/400.-6)
 ;T = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, (findgen(10000)+1.)/10000. * 10000. ]
 ;T = 10.^(findgen(501)/100-1.)
 ;T = 10.^(findgen(1001)/100.-5)
