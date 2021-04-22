@@ -1,0 +1,5 @@
+Dissociation energies           1 molecules
+       Molecule                    HH                   Luo                    G2               Adopted
+                        Do  sigma(Do)         Do  sigma(Do)         Do  sigma(Do)         Do  sigma(Do)
+                      [eV]       [eV]       [eV]       [eV]       [eV]       [eV]       [eV]       [eV]
+   H2    H    H    4.478130         .    4.478007  0.000004           .         .    4.478007  0.000004

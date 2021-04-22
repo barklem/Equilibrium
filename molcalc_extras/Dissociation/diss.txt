@@ -1,0 +1,10 @@
+# Dissociation energies in eV
+#
+# Note: for Luo 2007   Do[eV] = ( BDE(298.15K) - 0.8886 kcal/mol ) * 4.33641e-2   (see also Herzberg pg 437 for def of Do vs Doo - almost always equal)
+#
+# mol        components       H&H                  Luo 2007          page  Curtiss etal G2   other     adopted       comments
+#
+#  -- HOMONUCLEAR --
+  H2           H     H      4.47813    -       4.478007  0.000004     493        -            -          L   
+  He2          He    He     0.00090    -          -        -            -        -            -          H    only interested in partition func, so haven't looked for best value
+# end

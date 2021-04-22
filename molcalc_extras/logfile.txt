@@ -1,0 +1,3 @@
+Log file for molcalc run
+starting Thu Apr 15 16:51:01 2021
+Thu Apr 15 16:56:50 2021
