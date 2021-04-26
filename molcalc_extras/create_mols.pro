@@ -224,6 +224,7 @@ for imol = 0, nmol-1 do begin
    endif
           
    ;if molname[imol] eq 'CBr' then stop
+
    
    ; make a structure with numbers, in format needed by codes
    
@@ -300,6 +301,15 @@ for imol = 0, nmol-1 do begin
     bete_ref : molstr_hh.bete_ref  ,      $
     re_ref   : molstr_hh.re_ref           $
     }
+
+
+   print, 'CHANGING HE2 ZERO POINT!!!!!!'
+   if molname[imol] eq 'He2' then begin
+    moldat.Te = moldat.Te - 144048.
+    moldat_hh.Te = moldat_hh.Te - 144048.
+    molstr.Te = string(moldat.Te)
+    molstr_hh.Te = string(moldat_hh.Te)
+   endif  
    
     ; save all data
 

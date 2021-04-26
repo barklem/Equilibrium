@@ -184,7 +184,7 @@ for i = 0, ms.ns-1 do begin
          if ms.Te[i] eq 0. then begin
            if keyword_set(errorfile) then begin
              openw, lun, errorfile, /get_lun, /append
-             printf, lun, ms.molid + ': ground state has Bv le 0
+             printf, lun, ms.molid + ': ground state has Bv le 0'
              close, lun
              free_lun, lun
            endif
