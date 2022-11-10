@@ -1,11 +1,13 @@
 to redo calcs: (say with new T grid)
 
-run molcal in idl  (after editing T grid and input atomfile from an atom specific calc in molcalc_atoms_extendedTbyPB)
+run molcalc in idl  (after editing T grid and input atomfile from an atom specific calc in molcalc_atoms_extendedTbyPB)
 then collate
 then plotmol
 
 
-then some very sinple tests:
+then some very simple tests:
+
+goto PartFuncs_Results
 
 
 IDL> restore, 'allatom_collated.idl'

@@ -86,19 +86,19 @@ endmolecules:
 
 ; calculate thermodynamic properties on the following T grid
 
-;; Temperature grid for Barklem & Collet (2016) paper
-;T = [1e-5,  1e-4,  1e-3,  1e-2,  0.1,   0.15,  0.2,   0.3,   0.5,   0.7, $
-;     1.0,   1.3,   1.7,   2.0,   3.0,   5.0,   7.,    10.,   15.,   20., $
-;     30.,   50.,   70.,   100.,  130.,  170.,  200.,  250.,  300.,  500., $
-;     700.,  1000., 1500., 2000., 3000., 4000., 5000., 6000., 7000., 8000., $
-;     9000., 10000. ]
+; Temperature grid for Barklem & Collet (2016) paper
+T = [1e-5,  1e-4,  1e-3,  1e-2,  0.1,   0.15,  0.2,   0.3,   0.5,   0.7, $
+     1.0,   1.3,   1.7,   2.0,   3.0,   5.0,   7.,    10.,   15.,   20., $
+     30.,   50.,   70.,   100.,  130.,  170.,  200.,  250.,  300.,  500., $
+     700.,  1000., 1500., 2000., 3000., 4000., 5000., 6000., 7000., 8000., $
+     9000., 10000. ]
 
-; Temperature grid, Oct. 2016 calculations
-  T = 10.^(findgen(1001)/100.-6)
+; Temperature grid, Oct. 2016 calculations  ("extended T grid")
+;  T = 10.^(findgen(1001)/100.-6)
 
 ; Temperature grid, Aug. 2020 calculations, 10^-6 to 10^6, 100 / 400 points per decade
-  T = 10.^(findgen(12*100+1)/100.-6)
-  T = 10.^(findgen(12*400+1)/400.-6)
+;  T = 10.^(findgen(12*100+1)/100.-6)        ;   ("vlarge T grid")
+  T = 10.^(findgen(12*400+1)/400.-6)        ;   ("extremely large T grid")
 
   print, IdStr+': Temperature grid T =', T
 
@@ -125,7 +125,7 @@ endmolecules:
 
   
 ; skip molecules? uncomment next line
-; goto, skip_molecules
+ goto, skip_molecules
 
 ; below we perform all tasks on each molecule in turn
 
@@ -158,8 +158,8 @@ skip_molecules:
 ; save all data in a single file
 
   print, ' '
-  print, 'saving all data in alldata.sav'
-  save, file = 'alldata.sav', T, lgKpmol, Qmol, Qatom, molid, atomid, atom_potion
+  print, 'saving all data in allatomdata.sav'
+  save, file = 'allatomdata.sav', T, Qatom, atomid, atom_potion
 
   stop
 

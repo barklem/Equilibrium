@@ -36,10 +36,42 @@
 	"buffers":
 	[
 		{
+			"file": "Final_Mols_ascii/H2.txt",
+			"settings":
+			{
+				"buffer_size": 14160,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "Replacements/He2.rep",
 			"settings":
 			{
-				"buffer_size": 649,
+				"buffer_size": 8529,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Replacements/He2_paul.rep",
+			"settings":
+			{
+				"buffer_size": 8373,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Final_Mols_ascii/He2.txt",
+			"settings":
+			{
+				"buffer_size": 15344,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "nuc_spins.dat",
+			"settings":
+			{
+				"buffer_size": 1972,
 				"line_ending": "Unix"
 			}
 		},
@@ -71,7 +103,17 @@
 			"file": "create_mols.pro",
 			"settings":
 			{
-				"buffer_size": 15632,
+				"buffer_size": 15880,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "comp_mol_partf.pro",
+			"settings":
+			{
+				"buffer_size": 10846,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -113,6 +155,8 @@
 	},
 	"file_history":
 	[
+		"/Users/barklem/Dropbox/Projects/Equilibrium/molcalc_extras/Replacements/He2.rep",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/molcalc_extras/He2_papers/He2molconsts.tab",
 		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOVGEN/ioncovgen.sublime-workspace",
 		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOVGEN/process/Paul-dev/NplusO_bf_exp.dat",
 		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOVGEN/process/Paul-dev/NO_notwo_total.dat",
@@ -158,7 +202,7 @@
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -172,6 +216,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"spin",
+			"read_spin",
+			"spins",
+			"nuc_spin"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -189,16 +237,47 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "Final_Mols_ascii/H2.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"file": "Replacements/He2.rep",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 649,
+						"buffer_size": 8529,
 						"regions":
 						{
 						},
@@ -217,11 +296,96 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
+					"file": "Replacements/He2_paul.rep",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8373,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Final_Mols_ascii/He2.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15344,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1783,
+								1783
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 4.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "nuc_spins.dat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1972,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "Dissociation/diss.txt",
 					"semi_transient": false,
 					"settings":
@@ -245,11 +409,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 6,
 					"file": "read_diss.pro",
 					"semi_transient": false,
 					"settings":
@@ -275,11 +439,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 7,
 					"file": "molcalc.pro",
 					"semi_transient": false,
 					"settings":
@@ -305,24 +469,54 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 8,
 					"file": "create_mols.pro",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15632,
+						"buffer_size": 15880,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								13602,
+								13602
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Interactive Data Language (IDL)/IDL.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4382.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "comp_mol_partf.pro",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10846,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8554,
+								8558
 							]
 						],
 						"settings":
@@ -335,7 +529,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]

@@ -6,7 +6,8 @@ pro read_atom, fname, J, E, ionpot, debug=debug, nlev=nlev, ns=ns
 ; INPUT: fname = file name
 ; OUTPUT: Energies E (cm^-1) and angular momenta J for all tabulated levels
 ;-
-
+; Bug fix on reading J values where more than 1, see line 170 - PB
+; 
   IdStr = 'READ_ATOM'
   
 ; default keywords
@@ -159,13 +160,14 @@ pro read_atom, fname, J, E, ionpot, debug=debug, nlev=nlev, ns=ns
                  if (has_dash or has_comma) then begin
                     if (do_debug) then $
                        print, '% '+IdStr+': string has a range of Js separated by commas or dashes'
-; first, replace all dashes with commas
+; first, replace all dashes with commas   PB2022 - I don't find any such cases
                     str_j  = strjoin(strsplit(str_j, '-', /extract), ',')
 ; then separate substrings assuming commas as separator
                     str_j_arr = strsplit(str_j, ',', /extract, count=nsplit)
                     for i=0L,nsplit-1 do begin
                        E[ns] = double(str_e)
-                       j[ns] = double(str_j_arr[i])
+                       j[ns] = double(str_j_arr[i])   ;BUG FIX PB2022 - missing eval_frac function
+                       ;j[ns] = double(eval_frac(str_j_arr[i]))
                        term[ns] = iterm
                        ionstage[ns] = iion
                        ns = ns + 1
