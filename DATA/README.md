@@ -8,28 +8,29 @@ Then I provide various data sets in idl binary format and/or ascii.  The main re
 
 I have used four grids with silly names:
 
-; Temperature grid for Barklem & Collet (2016) paper ("published T grid")
-T = [1e-5,  1e-4,  1e-3,  1e-2,  0.1,   0.15,  0.2,   0.3,   0.5,   0.7, $
-     1.0,   1.3,   1.7,   2.0,   3.0,   5.0,   7.,    10.,   15.,   20., $
-     30.,   50.,   70.,   100.,  130.,  170.,  200.,  250.,  300.,  500., $
-     700.,  1000., 1500., 2000., 3000., 4000., 5000., 6000., 7000., 8000., $
-     9000., 10000. ]
+; Temperature grid for Barklem & Collet (2016) paper ("published T grid")<br>
 
-; Temperature grid, Oct. 2016 calculations  ("extended T grid")
-  T = 10.^(findgen(1001)/100.-6)
+T = [1e-5,  1e-4,  1e-3,  1e-2,  0.1,   0.15,  0.2,   0.3,   0.5,   0.7, $<br>
+     1.0,   1.3,   1.7,   2.0,   3.0,   5.0,   7.,    10.,   15.,   20., $<br>
+     30.,   50.,   70.,   100.,  130.,  170.,  200.,  250.,  300.,  500., $<br>
+     700.,  1000., 1500., 2000., 3000., 4000., 5000., 6000., 7000., 8000., $<br>
+     9000., 10000. ]<br>
 
-; Temperature grid, Aug. 2020 calculations, 10^-6 to 10^6, 100 or 400 points per decade
-  T = 10.^(findgen(12*100+1)/100.-6)        ;   ("vlarge T grid")
-  T = 10.^(findgen(12*400+1)/400.-6)        ;   ("extremely large T grid")
+; Temperature grid, Oct. 2016 calculations  ("extended T grid")<br>
+  T = 10.^(findgen(1001)/100.-6)<br>
 
-  Inside the folders you can always find idl binary files:
+; Temperature grid, Aug. 2020 calculations, 10^-6 to 10^6, 100 or 400 points per decade<br>
+  T = 10.^(findgen(12*100+1)/100.-6)        ;   ("vlarge T grid")<br>
+  T = 10.^(findgen(12*400+1)/400.-6)        ;   ("extremely large T grid")<br>
 
-  allatom_collated.idl     - atomic partition functions
-  allequil_collated.idl    - molecular equilibrium constants
-  allpartf_collated.idl    - molecular partition functions
+  Inside the folders you can always find idl binary files:<br>
 
-  In some cases I also give the ascii versions of these tables, respectively:
+  allatom_collated.idl     - atomic partition functions<br>
+  allequil_collated.idl    - molecular equilibrium constants<br>
+  allpartf_collated.idl    - molecular partition functions<br>
 
-  atompartf_table.txt
-  equil_table.txt
-  partf_table.txt
+  In some cases I also give the ascii versions of these tables, respectively:<br>
+
+  atompartf_table.txt<br>
+  equil_table.txt<br>
+  partf_table.txt<br>
