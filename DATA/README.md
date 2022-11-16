@@ -2,6 +2,34 @@
 
 Data sets:
 
-"CDS format data" contains the original published data in ascii formats put on CDS, plus versions of the same with the November 2022 bug fix.  This is the same as published on github at public-data/partition-functions_and_equilibrium-constants
+"CDS format data" contains the original published data in ascii formats put on CDS, plus versions of the same with the November 2022 minor bug fix (vNov2022).  This is the same as published on github at public-data/partition-functions_and_equilibrium-constants
 
-Then I provide various data sets in idl binary format and/or ascii.  The main reason for this is provide calculations done on wider and more dense temperature grids.  But this should not imply the data are good at these temperatures - it is mostly to aid interpolation and extrapolation.
+Then I provide various data sets in idl binary format and/or ascii.  The main reason for this is to provide calculations done on wider and more dense temperature grids, especially at high T.  But this should not imply the data are good at these temperatures - it is mostly to aid interpolation and extrapolation in code, where for practical applications something has to be calculated irrespective of whether it is good physically or not.
+
+I have used four grids with silly names:
+
+; Temperature grid for Barklem & Collet (2016) paper ("published T grid")
+T = [1e-5,  1e-4,  1e-3,  1e-2,  0.1,   0.15,  0.2,   0.3,   0.5,   0.7, $
+     1.0,   1.3,   1.7,   2.0,   3.0,   5.0,   7.,    10.,   15.,   20., $
+     30.,   50.,   70.,   100.,  130.,  170.,  200.,  250.,  300.,  500., $
+     700.,  1000., 1500., 2000., 3000., 4000., 5000., 6000., 7000., 8000., $
+     9000., 10000. ]
+
+; Temperature grid, Oct. 2016 calculations  ("extended T grid")
+  T = 10.^(findgen(1001)/100.-6)
+
+; Temperature grid, Aug. 2020 calculations, 10^-6 to 10^6, 100 or 400 points per decade
+  T = 10.^(findgen(12*100+1)/100.-6)        ;   ("vlarge T grid")
+  T = 10.^(findgen(12*400+1)/400.-6)        ;   ("extremely large T grid")
+
+  Inside the folders you can always find idl binary files:
+
+  allatom_collated.idl     - atomic partition functions
+  allequil_collated.idl    - molecular equilibrium constants
+  allpartf_collated.idl    - molecular partition functions
+
+  In some cases I also give the ascii versions of these tables, respectively:
+
+  atompartf_table.txt
+  equil_table.txt
+  partf_table.txt
