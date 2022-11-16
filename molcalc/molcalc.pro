@@ -29,7 +29,7 @@ atomfile = '../remo/allatomdata_new.sav'
 atomfile = '../molcalc_atoms_extendedTbyPB/allatomdata_vlargeTgrid.sav'
 atomfile = '../molcalc_atoms_extendedTbyPB/allatomdata_exlargeTgrid.sav'
 atomfile = '../molcalc_atoms_extendedTbyPB/allatomdata_post_fix_2022_origT.sav'
-atomfile = '../molcalc_atoms_extendedTbyPB/allatomdata_post_fix_2022_exlargeT.sav'
+;atomfile = '../molcalc_atoms_extendedTbyPB/allatomdata_post_fix_2022_exlargeT.sav'
 moldir = './Final_Mols_idl/'  ; should have ending slash
 outdir1 = './PartFuncs_Results/'
  

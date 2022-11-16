@@ -166,8 +166,8 @@ pro read_atom, fname, J, E, ionpot, debug=debug, nlev=nlev, ns=ns
                     str_j_arr = strsplit(str_j, ',', /extract, count=nsplit)
                     for i=0L,nsplit-1 do begin
                        E[ns] = double(str_e)
-                       j[ns] = double(str_j_arr[i])   ;BUG FIX PB2022 - missing eval_frac function
-                       ;j[ns] = double(eval_frac(str_j_arr[i]))
+                       ;j[ns] = double(str_j_arr[i])   ;BUG FIX PB2022 - missing eval_frac function
+                       j[ns] = double(eval_frac(str_j_arr[i]))
                        term[ns] = iterm
                        ionstage[ns] = iion
                        ns = ns + 1

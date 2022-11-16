@@ -1,5 +1,5 @@
 Log file for molcalc run
-starting Wed Nov  9 10:52:53 2022
+starting Tue Nov 15 10:38:49 2022
 ScH: no ground state  ns =            0
 VH: no ground state  ns =            0
 PdH: no ground state  ns =            0
@@ -50,4 +50,4 @@ CrCl: no ground state  ns =            0
 CoCl: no ground state  ns =            0
 NiCl: no ground state  ns =           18
 CuSe: no ground state  ns =            0
-Thu Nov 10 05:47:56 2022
+Wed Nov 16 05:00:44 2022
