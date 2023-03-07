@@ -7,4 +7,4 @@ The codes are provided as they are - they are unevenly documented, and due to th
 
 The most interesting thing are the results of various calculations, which are provided in the directory DATA.  They are provided as IDL binary files, and/or text files.
 
-A very minor bug was fixed in November 2022 that affects the atomic calculations, which slightly affects equilibrium constants.  See molcalc_atoms_extendedTbyPB/molcalc_atoms_extendedTbyPB for details of the bug and its effects.  Updated tables are given at public-data/partition-functions_and_equilibrium-constants.  
+A very minor bug was fixed in November 2022 that affects the atomic calculations, which slightly affects equilibrium constants.  See code/molcalc_atoms/AA_Bug fix Oct-Nov 2022 for details of the bug and its effects.  Updated tables are given at public-data/partition-functions_and_equilibrium-constants, as well as in the DATA directory here (label "vNov2022").  
