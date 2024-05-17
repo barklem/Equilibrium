@@ -733,11 +733,12 @@ cd, current_dir
 
 ; now output equilibrium constants
 
-restore, indir1 + 'allequil.idl'  ; gives : T, lgKpmol, molid, Dmol
+restore, indir1 + 'allequil.idl'  ; gives : T, lgKpmol, molid, Dmol, molecule_components
 
 molid = molid[indstore]
 lgKpmol = lgKpmol[indstore,*]
 Dmol = Dmol[indstore]
+molecule_components = molecule_components[indstore,*]
 
 openw, 1, outdir1 + 'equil_table.txt'
 printf, 1, 'Equilibrium constants  log10(pK)'
@@ -769,7 +770,7 @@ close, 1
 
 save, file = indir1 + 'allatom_collated.idl', T, Qatom, atomid, atom_potion
 save, file = indir1 + 'allpartf_collated.idl', T, Qmol, Qmol4, QmolSt, QmolHH, molid, Dmol, EZEROmol
-save, file = indir1 + 'allequil_collated.idl', T, lgKpmol, molid, Dmol
+save, file = indir1 + 'allequil_collated.idl', T, lgKpmol, molid, Dmol, molecule_components
 
 
 

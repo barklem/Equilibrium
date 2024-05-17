@@ -1,35 +1,31 @@
 ; The main program
-;
-; Reads in list of atoms and molecules to be calculated 
-; with files for fundamental data
-; stored in designated file mollist
-;
-; Note, the program is kept general to allow molecules larger than 
-; diatomic, but they are not yet supported in the calculation routines
-; 
-; Paul Barklem, Feb 2007
-; Major revision, Nov 2011
 
+pro molcalc
 
-pro molcalc;, mollist
+; turn on this switch to calculate negative molecular ion equilibrium constants 
+; for 3 body dissociation i.e. A + B + e <-> AB- , so K = p(A)p(B)p(e)/p(AB-)
+; rather than default 2 body i.e. A + B- <-> AB- , so K = p(A)p(B-)/p(AB-)
+; note this means data with mixed dimensions and units!!!   
+
+negative3 = 1
 
 ; read all data
 
 read_diss, molname, DE, components=molcomp
 nmol = n_elements(molname)
+molecule_components = strarr(nmol,3)
+molecule_components[*,0:1] = molcomp
 
 read_weights, wname, wweight
 
-
 ; file locations 
-atomdir = '../remo/molcalc_test/atompf/' 
 ;atomfile = '../remo/molcalc_test/allatomdata_new.sav'
 atomfile = '../remo/molcalc_test/alldata_atomsonly.sav'
 atomfile = '../remo/allatomdata_new.sav'
 atomfile = '../molcalc_atoms/allatomdata_vlargeTgrid.sav'
 atomfile = '../molcalc_atoms/allatomdata_exlargeTgrid.sav'
 atomfile = '../molcalc_atoms/allatomdata_post_fix_2022_origT.sav'
-;atomfile = '../molcalc_atoms/allatomdata_post_fix_2022_exlargeT.sav'
+atomfile = '../molcalc_atoms/allatomdata_post_fix_2022_exlargeT.sav'
 moldir = './Final_Mols_idl/'  ; should have ending slash
 outdir1 = './PartFuncs_Results/'
  
@@ -49,10 +45,8 @@ T = [1e-5,  1e-4,  1e-3,  1e-2,  0.1,   0.15,  0.2,   0.3,   0.5,   0.7, $
 ;  T = 10.^(findgen(12*100+1)/100.-6)        ;   ("vlarge T grid")
   T = 10.^(findgen(12*400+1)/400.-6)        ;   ("extremely large T grid")
 
-
 theta = 5040.d0/T
 nT = n_elements(T)
-
 
 ; below we perform all tasks on each molecule in turn
 
@@ -115,53 +109,57 @@ for i = 0, nmol-1 do begin
    atm2 = atm2[0]
 
 ; construct species names
+   atn_neg = ' '
+
+   atn1_ineg = 0
    atn1 = molcomp[i,0]
    i1 = strpos(atn1, '-')
    i2 = strpos(atn1, '+')
    if (i1 eq -1 and i2 eq -1) then atn1 = atn1 + '_I'
    atn1 = repstr(atn1, '+', '_II')
-   atn1c = atn1
-   atn1 = atn1 + '.sav'
+   if i1 gt 0 then atn1_ineg = 1
+
+   atn2_ineg = 0
    atn2 = molcomp[i,1]
    i1 = strpos(atn2, '-')
    i2 = strpos(atn2, '+')
    if (i1 eq -1 and i2 eq -1) then atn2 = atn2 + '_I'
    atn2 = repstr(atn2, '+', '_II')
+   if i1 gt 0 then atn2_ineg = 1
+
+   atn_ineg = 0
+   if (atn1_ineg or atn2_ineg) then atn_ineg = 1
+
+   ; if negative ion and 3 body calculation, construct correct data
+   if negative3 and atn_ineg then begin
+      if atn1_ineg then begin 
+         atn_neg = atn1
+         atn1 = repstr(atn1, '-', '_I')
+         atn1_clean = repstr(atn1, '_I', ' ')
+         atn1_clean = strcompress(atn1_clean, /remove_all)
+         molecule_components[i,0] = atn1_clean
+         molecule_components[i,2] = 'e'
+      endif   
+      if atn2_ineg then begin 
+         atn_neg = atn2
+         atn2 = repstr(atn2, '-', '_I')
+         atn2_clean = repstr(atn2, '_I', ' ')
+         atn2_clean = strcompress(atn2_clean, /remove_all)
+         molecule_components[i,1] = atn2_clean
+         molecule_components[i,2] = 'e'
+      endif   
+   endif
+
+   ; make a version with file ending and without
+   atn1c = atn1
+   atn1 = atn1 + '.sav'
    atn2c = atn2
    atn2 = atn2 + '.sav'
+   atn_negc = atn_neg
+   atn_neg = atn_neg + '.sav'
    
-iatomfiles = 0   ; use individual files or use a collected files   
+; use a single collected file  
    
-if iatomfiles then begin   
-   q1 = file_test(atomdir + atn1)
-   q2 = file_test(atomdir + atn2)
-   if (q1 and q2) then begin
-      print, 'using ' + atn1 + ' and ' + atn2
-      print, 'masses: ', atm1, atm2
-   endif else begin
-      if q1 eq 0 then begin
-         print, atn1 + ' not found'
-         printf, lun, atn1 + ' not found - skipping ', molname[i]
-      endif
-      if q2 eq 0 then begin
-         print, atn2 + ' not found'
-         printf, lun, atn2 + ' not found - skipping ', molname[i]
-      endif
-      
-      goto, skipKp
-   endelse
-  
-  Qi_store = Qi
-  Tstore = T 
-  restore, atomdir + atn1  
-  Qa1 = QI
-  restore, atomdir + atn2 
-  Qa2 = QI
-  Tatom = T
-  T = Tstore
-  Qi = Qi_store
-  
-endif else begin  
   Tstore = T 
   restore, atomfile
   ind1 = where(atn1c eq atomid)
@@ -177,20 +175,49 @@ endif else begin
    endelse
    
    Tatom = T
-   Qa1 = Qatom[ind1,*]
-   Qa2 = Qatom[ind2,*]
+   Qa1 = reform(Qatom[ind1,*])
+   Qa2 = reform(Qatom[ind2,*])
    T = Tstore
-endelse
+
+   ; if needed extract negative ion ionisation potential for 3 body
+   if negative3 and atn_ineg then begin
+      ind3 = where(atn_negc eq atomid)
+      if (ind3 ge 0) then begin
+         print, 'using ' + atn_negc + ' for negative ion'
+      endif else begin
+        print, atn_negc + ' not found'
+        stop
+      endelse
+
+      negative_ip = atom_potion[ind3]
+      negative_ip = negative_ip[0]
+   endif   
+
+; end read atom data
   
+  if not array_equal(Tatom, T) then begin
+     print, ' WARNING: Atom and molecule temerature grids not the same, interpolating and maybe extrapolating'
+     read, ' continue?  (y/other)', ans
+     if ans ne 'y' then stop
+  endif 
+
   ; put on same T grid
   Qa1 = interpol(Qa1, Tatom, T)
   Qa2 = interpol(Qa2, Tatom, T)
   
   mu = (atm1 * atm2) / (atm1 + atm2)
-  comp_mol_equil, T, moldat, Qa1, Qa2, Qi, mu, lgKp
-   lgKpmol[i, *] = lgKp
+
+  if negative3 and atn_ineg then begin
+     comp_mol_equil3, T, moldat, Qa1, Qa2, Qi, mu, negative_ip, lgKp
+     Dmol[i] = Dmol[i] + negative_ip
+  endif else begin 
+     comp_mol_equil, T, moldat, Qa1, Qa2, Qi, mu, lgKp
+  endelse   
+   
+  lgKpmol[i, *] = lgKp
   
-  save, file = outdir1 + molname[i]+'.idl', lgKp, Qi, T   ; save partition func and equil constant
+  mol_components = molecule_components[i,*]
+  save, file = outdir1 + molname[i]+'.idl', lgKp, Qi, T, mol_components   ; save partition func and equil constant
 
 ;stop
 
@@ -230,7 +257,7 @@ print, 'saving all data'
 molid = molname
 save, file = outdir1 + 'allatom.idl', T, Qatom, atomid, atom_potion
 save, file = outdir1 + 'allpartf.idl', T, Qmol, Qmol4, QmolSt, QmolHH, molid, Dmol, EZEROmol
-save, file = outdir1 + 'allequil.idl', T, lgKpmol, molid, Dmol
+save, file = outdir1 + 'allequil.idl', T, lgKpmol, molid, Dmol, molecule_components
 
 print, ' '
 print, 'normal end'
