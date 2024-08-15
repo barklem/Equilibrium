@@ -1,0 +1,26 @@
+Return-Path: <asplund@MPA-Garching.MPG.DE>
+Received: from vpn-14.MPA-Garching.MPG.DE (vpn-14.MPA-Garching.MPG.DE [130.183.87.14])
+	by mpadmx-4.MPA-Garching.MPG.DE (8.13.7/8.13.3) with ESMTP id mAJLMkBO000391;
+	Wed, 19 Nov 2008 22:22:47 +0100
+Message-Id: <F3F6CE6A-B0A7-4CB6-8916-4694B1EDE4A6@MPA-Garching.MPG.DE>
+From: Martin Asplund <asplund@MPA-Garching.MPG.DE>
+To: Remo Collet <remo@MPA-Garching.MPG.DE>
+Content-Type: text/plain; charset=US-ASCII; format=flowed
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v926)
+Subject: revised dissociation energies
+Date: Wed, 19 Nov 2008 22:22:46 +0100
+Cc: Martin Asplund <asplund@MPA-Garching.MPG.DE>
+X-Mailer: Apple Mail (2.926)
+X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-4.0 (mpadmx-4.MPA-Garching.MPG.DE [130.183.82.44]); Wed, 19 Nov 2008 22:22:47 +0100 (CET)
+
+Ciao Remo,
+
+Here are slightly revised values for two molecules:
+
+H2O   9.506 eV
+CO   11.108 eV
+
+Cheers,
+
+Martin

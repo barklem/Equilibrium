@@ -1,0 +1,46 @@
+22        Partition Functions for Titanium
+  temp (K)    Z_TiI   Z_TiII
+   001.000    5.000    4.000 
+   500.000   12.247   17.278 
+  1000.000   15.641   26.666 
+  1500.000   17.219   32.877 
+  2000.000   18.340   37.337 
+  2500.000   19.478   40.901 
+  3000.000   20.818   44.024 
+  3500.000   22.442   46.946 
+  4000.000   24.395   49.786 
+  4500.000   26.710   52.600 
+  5000.000   29.412   55.412 
+  5500.000   32.520   58.228 
+  6000.000   36.051   61.049 
+  6500.000   40.017   63.875 
+  7000.000   44.426   66.703 
+  7500.000   49.287   69.532 
+  8000.000   54.604   72.362 
+  8500.000   60.380   75.194 
+  9000.000   66.614   78.028 
+  9500.000   73.304   80.867 
+ 10000.000   80.445   83.713 
+    -1.000    0.000    0.000
+
+The Ti I energy level list is from the nist.gov web site Dec. 2001. 
+The Ti II energy level list is from the nist.gov web site Dec. 2001. 
+The lowest two configurations of Ti I are the 3d^2^4s^2^ which has a missing
+^1^S term and the 3d^3^ 4s which has missing ^3^F, ^3^D, and ^1^D terms.
+The lowest two configurations of Ti II are the 3d^2^4s which has no 
+missing terms and the 3d^3^ which has no missing terms.
+The missing terms are all pretty high.
+
+
+ 
+Jim Lawler
+Arthur and Aurelia Schawlow Professor of Physics
+University of Wisconsin
+
+1150 University Ave.
+Madison, WI 53706
+
+tele: 608 262 2918
+fax:  608 265 2334
+
+

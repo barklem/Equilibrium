@@ -768,9 +768,9 @@ close, 1
 
 
 
-save, file = indir1 + 'allatom_collated.idl', T, Qatom, atomid, atom_potion
-save, file = indir1 + 'allpartf_collated.idl', T, Qmol, Qmol4, QmolSt, QmolHH, molid, Dmol, EZEROmol
-save, file = indir1 + 'allequil_collated.idl', T, lgKpmol, molid, Dmol, molecule_components
+save, file = outdir1 + 'allatom_collated.idl', T, Qatom, atomid, atom_potion
+save, file = outdir1 + 'allpartf_collated.idl', T, Qmol, Qmol4, QmolSt, QmolHH, molid, Dmol, EZEROmol
+save, file = outdir1 + 'allequil_collated.idl', T, lgKpmol, molid, Dmol, molecule_components
 
 
 

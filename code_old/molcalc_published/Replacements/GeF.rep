@@ -1,7 +1,0 @@
-state 2S+1  Lambda  plusmin oddeven      Te        we    wxe    wye   Be    alfe   game    De   bete   re
-X1      1      1      .         .          0         .      .      .    .       .      .     .      .    .    HH
-X2      1      1      .         .       934.33       .      .      .    .       .      .     .      .    .    HH
-X1      1      1      .         .          .         .      .      .    .       .      .   4.50e-7  .    .    HH
-X2      1      1      .         .          .         .      .      .    .       .      .   4.47e-7  .    .    HH
-end
-fix weights and De values seem wrong (too big by many orders of magnitude).

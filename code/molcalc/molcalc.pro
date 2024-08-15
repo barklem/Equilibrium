@@ -7,7 +7,7 @@ pro molcalc
 ; rather than default 2 body i.e. A + B- <-> AB- , so K = p(A)p(B-)/p(AB-)
 ; note this means data with mixed dimensions and units!!!   
 
-negative3 = 1
+negative3 = 0
 
 ; read all data
 
@@ -41,7 +41,7 @@ T = [1e-5,  1e-4,  1e-3,  1e-2,  0.1,   0.15,  0.2,   0.3,   0.5,   0.7, $
 ; Temperature grid, Oct. 2016 calculations  ("extended T grid")
 ;  T = 10.^(findgen(1001)/100.-6)
 
-; Temperature grid, Aug. 2020 calculations, 10^-6 to 10^6, 100 / 400 points per decade
+; Temperature grid, Aug. 2020 and later calculations, 10^-6 to 10^6, 100 / 400 points per decade
 ;  T = 10.^(findgen(12*100+1)/100.-6)        ;   ("vlarge T grid")
   T = 10.^(findgen(12*400+1)/400.-6)        ;   ("extremely large T grid")
 

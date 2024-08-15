@@ -1,0 +1,94 @@
+This code does the molecular calculations, given an input binary with atomic calculations from molcalc_atoms
+
+to do calculation:
+
+run molcalc in idl  (after editing T grid and input atomfile from an atom specific calc in molcalc_atoms)
+then collate
+
+then some very simple tests:
+
+goto Final_Collated_Results
+
+
+IDL> restore, 'allatom_collated.idl'
+IDL> help
+% At $MAIN$          
+ATOMID          STRING    = Array[284]
+ATOM_POTION     DOUBLE    = Array[284]
+QATOM           DOUBLE    = Array[284, 1201]
+T               FLOAT     = Array[1201]
+Compiled Procedures:
+    $MAIN$
+
+Compiled Functions:
+
+IDL> ind = where(~finite(qatom)) & print, ind
+          -1
+
+IDL> plot, t, qatom[0,*], /xlog, /ylog   ; H I
+IDL> plot, t, qatom[31,*], /xlog, /ylog. ; Na I
+IDL> .reset_session
+IDL> help
+% At $MAIN$          
+Compiled Procedures:
+    $MAIN$
+
+Compiled Functions:
+
+IDL> restore, 'allpartf_collated.idl'        
+IDL> help                            
+% At $MAIN$          
+DMOL            DOUBLE    = Array[291]
+EZEROMOL        DOUBLE    = Array[291]
+MOLID           STRING    = Array[291]
+QMOL            DOUBLE    = Array[291, 1201]
+QMOL4           DOUBLE    = Array[291, 1201]
+QMOLHH          DOUBLE    = Array[291, 1201]
+QMOLST          DOUBLE    = Array[291, 1201]
+T               FLOAT     = Array[1201]
+Compiled Procedures:
+    $MAIN$
+
+Compiled Functions:
+
+IDL> ind = where(~finite(qmol)) & print, ind 
+          -1
+IDL> plot, t, qmol[0,*], /xlog, /ylog ; H2       
+IDL> plot, t, qmol[30,*], /xlog, /ylog ; H2-     
+IDL> plot, t, qmol[101,*], /xlog, /ylog ; CO
+IDL> .reset_session                         
+IDL> restore, 'allequil_collated.idl'       
+IDL> help
+% At $MAIN$          
+DMOL            DOUBLE    = Array[291]
+LGKPMOL         DOUBLE    = Array[291, 1201]
+MOLID           STRING    = Array[291]
+T               FLOAT     = Array[1201]
+Compiled Procedures:
+    $MAIN$
+
+Compiled Functions:
+
+IDL> ind = where(~finite(lgkpmol)) & print, ind
+          -1
+     
+IDL> plot,t, lgkpmol[0,*], /xlog ; H
+IDL> print, molecule_components[0,*]
+H
+H
+
+IDL> plot,t, lgkpmol[30,*], /xlog ; H2-
+IDL> print, molecule_components[30,*]  
+H
+H
+e
+IDL> plot,t, lgkpmol[101,*], /xlog ; CO
+IDL> print, molecule_components[101,*] 
+O
+C
+
+IDL> 
+
+
+
+

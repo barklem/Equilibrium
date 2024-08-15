@@ -1,0 +1,179 @@
+pro read_atom, filenm, J, E, ionpot, debug=debug
+
+; reads atom energy levels data from filenm
+; returns J and E(cm-1) for each level
+
+; print debugging statements?
+do_debug = keyword_set(debug)
+
+; is spin integer or half integer?
+is_spin_half = 0
+
+; default maximum number of levels
+nlev = 4000L
+E    = dblarr(nlev)
+j    = fltarr(nlev)
+
+; number of levels, counter
+ns   = 0
+
+
+
+; open trimmed file with NIST partition functions 
+openr, lun, filenm, /get_lun
+
+
+; first line is ionisation energy in eV
+ionpot = 0.0d0
+readf, lun, ionpot
+
+
+startp:
+
+  s = ' '
+
+  if ~eof(lun) then readf, lun, s, format='(a50)' else goto, endp
+
+; make a backup copy of the current string, for debugging purposes  
+  sbak = s
+  if (do_debug) then begin
+     print, 'debug: string= ',sbak
+  endif
+
+; header string? 
+  has_jstr = strpos(s,'J') gt -1
+  has_estr = strpos(s,'E') gt -1
+  if (do_debug) then print, 'debug: has_jstr, has_estr=',has_jstr,has_estr ;debug
+  if (has_jstr and has_estr) then goto, comment  ; header?
+
+; comments?
+  if strmid(s,0,1) eq '#' and strmid(s,1,1) ne '#' then begin
+     if (do_debug) then print, 'debug: comment (#)'
+     goto, comment
+  endif
+  if strmid(s,0,1) eq '-' then begin
+     if (do_debug) then print, 'debug: comment (-)'
+     goto, comment
+  endif
+
+; end string?
+  if strmid(s,0,3) eq '###' then begin
+     if (do_debug) then print, 'debug: case ###'
+     goto, endp
+  endif
+
+; all remaining strings are expected to contain two fields delimited
+; by '|';
+
+; split string in two, J part and E part
+  res   = strsplit(s,'|',/extract)
+  str_j = res[0]
+  str_e = res[1]
+
+; remove blanks 
+  str_j = strcompress(str_j,/remove_all)
+  str_e = strcompress(str_e,/remove_all)
+
+; first check to see whether strings are comments or else
+  if str_j eq '' and str_e eq '' then begin
+     if (do_debug) then print, 'debug: empty line'
+     goto, comment
+  endif
+  if strjoin(strsplit(str_j,'-',/extract)) eq '' and strjoin(strsplit(str_e,'-',/extract)) eq '' then begin
+     if (do_debug) then print, 'debug: comment (-----)'
+     goto, comment              ; nothing in first cols
+  endif
+
+
+; remove characters left over from trimming of html files downloaded
+; from NIST
+
+  str_j_tmp = strsplit(str_j,'[()]+ax?', /extract)  ; remove brackets if any
+  str_e_tmp = strsplit(str_e,'[()]+ax?', /extract)  ; remove brackets if any
+
+  str_j     = strjoin(str_j_tmp)
+  str_e     = strjoin(str_e_tmp)
+
+;stop
+
+; check if there is a range of J values
+  has_or = (stregex(str_j,'or') gt -1)
+;  has_or = (strpos(str_j, 'or') gt -1)
+  if (has_or) then begin
+     if (do_debug) then print, 'debug: str_j has a range of Js'
+     str_j = strsplit(str_j,'or',/regex,/extract,count=nsplit)
+     jtmp  = fltarr(nsplit)    
+     for i=0L,nsplit-1 do begin
+        jtmp[i] = eval_frac(str_j[i])
+     endfor
+
+     if str_e eq '' or str_e eq '_' then begin
+        print, 'Warning: missing E !'
+        e[ns] = e[ns-1]
+     endif else begin
+        e[ns] = double(str_e)
+     endelse
+     jmean = mean(jtmp)
+     print, 'range of Js: ',str_j, 'J mean =', jmean
+     j[ns] = jmean
+     ns    = ns + 1
+     goto, comment
+  endif 
+
+; check if str_j contains only '---': 
+; to be on the safe side, assign J=1/2 for half-integer spin case and
+; J=0 for integer case 
+  if (str_j eq '---') then begin
+     if (is_half_spin) then j[ns]=0.5 else j[ns]=0.0
+     e[ns] = double(str_e)
+     ns = ns + 1
+     goto, comment
+  endif
+ 
+; range of J values, separated by commas or dashes
+  has_dash  = (strpos(str_j, '-') gt -1)
+  has_comma = (strpos(str_j, ',') gt -1)
+  if (has_dash or has_comma) then begin ; a range of J
+     if (do_debug) then  print, 'debug: set of Js separated by dash or comma'
+; first, replace all dashes with commas
+     str_j  = strjoin(strsplit(str_j, '-', /extract), ',')
+; then separate substrings assuming commas as separator
+     str_j_arr = strsplit(str_j, ',', /extract, count=nsplit)
+     for i=0L,nsplit-1 do begin
+        e[ns] = double(str_e)
+        j[ns] = double(str_j_arr[i])
+        ns    = ns + 1
+     endfor
+     goto, comment
+  endif 
+  
+  
+; normal case
+  if (do_debug) then print,'debug: normal case'   ;debug
+  if str_e eq '_' or str_e eq '' then begin
+     e[ns] = e[ns-1]
+  endif else begin
+     e[ns] = double(str_e[0])
+  endelse
+  j[ns] = eval_frac(str_j)
+  ns = ns + 1
+    
+;  print, j[ns], e[ns]
+  comment:
+
+;stop
+; if ns==1 then check if spin integer or half
+  if (ns eq 1) then begin
+     if round(j[0]) eq j[0] then is_half_spin=0 else is_half_spin=1
+  endif
+  goto, startp
+
+  endp:
+  
+free_lun, lun
+if (do_debug) then print, 'debug: ns=',ns ;debug
+j = j[0:ns-1]
+e = e[0:ns-1]
+
+return
+end

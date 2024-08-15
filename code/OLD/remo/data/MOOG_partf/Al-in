@@ -1,0 +1,39 @@
+13        Partition Functions for Aluminum
+  temp (K)    Z_AlI   Z_AlII
+   001.000    2.000    1.000 
+   500.000    4.897    1.000 
+  1000.000    5.404    1.000 
+  1500.000    5.592    1.000 
+  2000.000    5.690    1.000 
+  2500.000    5.750    1.000 
+  3000.000    5.791    1.000 
+  3500.000    5.820    1.000 
+  4000.000    5.843    1.000 
+  4500.000    5.862    1.000 
+  5000.000    5.879    1.000 
+  5500.000    5.899    1.000 
+  6000.000    5.923    1.001 
+  6500.000    5.956    1.002 
+  7000.000    6.002    1.004 
+  7500.000    6.065    1.007 
+  8000.000    6.150    1.011 
+  8500.000    6.262    1.016 
+  9000.000    6.405    1.023 
+  9500.000    6.584    1.031 
+ 10000.000    6.803    1.041 
+    -1.000    0.000    0.000
+
+The Al I energy level list is from the nist.gov web site Dec. 2001. 
+The Al II energy level list is from the nist.gov web site Dec. 2001. 
+
+Jim Lawler
+Arthur and Aurelia Schawlow Professor of Physics
+University of Wisconsin
+
+1150 University Ave.
+Madison, WI 53706
+
+tele: 608 262 2918
+fax:  608 265 2334
+
+

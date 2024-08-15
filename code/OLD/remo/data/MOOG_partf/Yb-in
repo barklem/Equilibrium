@@ -1,0 +1,44 @@
+70        Partition Functions for Ytterbium
+   temp (K)   Z_YbI   Z_YbII
+   001.000    1.000    2.000 
+   500.000    1.000    2.000 
+  1000.000    1.000    2.000 
+  1500.000    1.000    2.000 
+  2000.000    1.000    2.000 
+  2500.000    1.000    2.000 
+  3000.000    1.002    2.000 
+  3500.000    1.006    2.002 
+  4000.000    1.018    2.007 
+  4500.000    1.044    2.020 
+  5000.000    1.091    2.045 
+  5500.000    1.170    2.089 
+  6000.000    1.292    2.161 
+  6500.000    1.468    2.269 
+  7000.000    1.711    2.422 
+  7500.000    2.034    2.631 
+  8000.000    2.451    2.904 
+  8500.000    2.975    3.253 
+  9000.000    3.617    3.686 
+  9500.000    4.390    4.213 
+ 10000.000    5.304    4.843 
+    -1.000    0.000    0.000
+
+The Yb I energy level list is from the NIST web site Dec. 2001. 
+Some, 6 , fake Yb I levels between 43000cm-1 and 49000cm-1 have been added
+for levels missing in nist.gov tables. These levels changed the partition
+function by  0% (1.2%) at 5000K (10000K).
+The Yb II energy level list is from the NIST web site Dec. 2001. 
+Some, 6, fake Yb II levels between 67000cm-1 and 90000cm-1 have been added
+for levels missing in nist.gov tables. These levels changed the partition
+function by 0.0% ( 0.0%) at 5000K (10000K).
+Jim Lawler
+Arthur and Aurelia Schawlow Professor of Physics
+University of Wisconsin
+
+1150 University Ave.
+Madison, WI 53706
+
+tele: 608 262 2918
+fax:  608 265 2334
+
+

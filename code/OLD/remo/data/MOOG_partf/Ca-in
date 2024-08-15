@@ -1,0 +1,38 @@
+20        Partition Functions for Calcium
+  temp (K)    Z_CaI   Z_CaII
+   001.000    1.000    2.000 
+   500.000    1.000    2.000 
+  1000.000    1.000    2.000 
+  1500.000    1.000    2.000 
+  2000.000    1.000    2.001 
+  2500.000    1.002    2.004 
+  3000.000    1.007    2.014 
+  3500.000    1.021    2.036 
+  4000.000    1.050    2.073 
+  4500.000    1.098    2.128 
+  5000.000    1.171    2.199 
+  5500.000    1.272    2.287 
+  6000.000    1.407    2.389 
+  6500.000    1.580    2.505 
+  7000.000    1.798    2.633 
+  7500.000    2.066    2.771 
+  8000.000    2.392    2.917 
+  8500.000    2.782    3.070 
+  9000.000    3.246    3.229 
+  9500.000    3.789    3.392 
+ 10000.000    4.419    3.560 
+    -1.000    0.000    0.000
+
+The Ca I energy level list is from the nist.gov web site Dec. 2001. 
+The Ca II energy level list is from the nist.gov web site Dec. 2001. 
+Jim Lawler
+Arthur and Aurelia Schawlow Professor of Physics
+University of Wisconsin
+
+1150 University Ave.
+Madison, WI 53706
+
+tele: 608 262 2918
+fax:  608 265 2334
+
+

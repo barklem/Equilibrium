@@ -1,0 +1,44 @@
+60        Partition Functions for Neodymium
+  temp (K)    Z_NdI   Z_NdII
+   001.000    9.000    8.000 
+   500.000    9.443   10.554 
+  1000.000   11.691   15.774 
+  1500.000   14.714   22.065 
+  2000.000   18.337   29.522 
+  2500.000   23.112   38.498 
+  3000.000   29.943   49.478 
+  3500.000   39.737   62.922 
+  4000.000   53.232   79.164 
+  4500.000   70.956   98.402 
+  5000.000   93.254  120.720 
+  5500.000  120.309  146.118 
+  6000.000  152.177  174.548 
+  6500.000  188.800  205.924 
+  7000.000  230.033  240.138 
+  7500.000  275.659  277.067 
+  8000.000  325.409  316.573 
+  8500.000  378.977  358.512 
+  9000.000  436.037  402.733 
+  9500.000  496.251  449.078 
+ 10000.000  559.280  497.389 
+    -1.000    0.000    0.000
+
+These Nd I levels are from nist.gov Oct 2001 and from Aufmuth et al. 
+A few new, 7 even parity &  5 odd parity, levels have been found by   
+Aufmuth et al. Z. Phys. D vol 23. p 15 (1992). Of the 7 even, 3 were
+already listed in nist.gov and 2 were recognized as missing, leaving 2 more.
+Of the 5 odd parity, 2 were already listed leaving 3 really new. 
+Fake levels were added for 21 missing odd parity and 6 missing even parity 
+levels of Nd I in multiplets between 11000 and 28000 cm-1.  These levels
+contributed 10.7% (12.4%) at 5000K (10000K).
+These Nd II tables are from J. Blaise et al., Physica Scripta
+vol 29, p 119 (1984).  Blaise et al. shifted a bunch of
+levels by 1218.9 cm-1 from the Martin, Zalubas, & Hagan,
+Atomic Energy Levels, The Rare Earth Elements, NSRDS-NBS 
+vol 60 (1978).
+The odd parity table from Blaise et al. (1984)  is not complete
+above 25200 cm-1.  Odd parity levels from nist.gov Oct. 2001
+were added above 25200 cm-1 and duplicates cut out.  What a
+mess!
+
+

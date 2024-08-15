@@ -1,7 +1,0 @@
-state 2S+1  Lambda  plusmin oddeven      Te        we    wxe    wye   Be    alfe   game    De   bete   re
-#X1     1      1      .         .          0         .      .      .    .       .      .     .      .    .    HH
-#X2     1      1      .         .          470       .      .      .    .       .      .     .      .    .    HH
-#X1     1      1      .         .          .         .      .      .   0.29632  .      .     .      .    .    EST
-#X2     1      1      .         .          .         .      .      .   0.29632  .      .     .      .    .    EST
-end
-give unique labels and add Be from PS molecule

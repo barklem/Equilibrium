@@ -1,0 +1,43 @@
+65        Partition Functions for Terbium
+  temp (K)    Z_TbI   Z_TbII
+     1.000   16.000   17.000 
+   500.000   29.382   17.811 
+  1000.000   42.029   21.173 
+  1500.000   52.612   26.460 
+  2000.000   63.752   33.753 
+  2500.000   76.210   42.652 
+  3000.000   90.275   52.677 
+  3500.000  106.118   63.447 
+  4000.000  123.897   74.698 
+  4500.000  143.775   86.254 
+  5000.000  165.905   98.007 
+  5500.000  190.410  109.894 
+  6000.000  217.368  121.883 
+  6500.000  246.807  133.965 
+  7000.000  278.702  146.141 
+  7500.000  312.979  158.419 
+  8000.000  349.528  170.809 
+  8500.000  388.207  183.320 
+  9000.000  428.854  195.960 
+  9500.000  471.293  208.732 
+ 10000.000  515.342  221.640 
+    -1.000    0.000    0.000
+
+The Tb I levels are from nist.gov November 2001. Some, 2 even and 7 odd,
+fake Tb I levels were added between 6000 cm-1 and 13000 cm-1 to replace 
+levels missing in nist.gov.  These Tb I fake levels changed the partition
+function by 2.3% (2.4%) at 5000K (10000K).
+The Tb II levels are from nist.gov August 2000 with 3 new even parity
+and 1 new odd parity levels from Wyart Jan 26, 2001. Wyart's new levels
+replaced 2 of the 6 missing even parity levels in nist.gov.  Some, 4 even,
+fake Tb II levels were added between 17000 cm-1 and 18000 cm-1 to replace 
+levels missing in nist.gov.  These Tb II fake levels changed the partition
+function by 0.2% (1.1%) at 5000K (10000K).
+An additional 7 fake Tb II even levels between 7000 cm-1 and 10000 cm-1 and
+7 fake Tb II odd levels between 31000 cm-1 and 35000 cm-1 were not added
+from Wyart calculations.  These additional levels could change the partition
+function by 4.5% (7.1%) at 5000K (10000K).
+
+
+ 
+

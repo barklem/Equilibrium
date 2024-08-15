@@ -1,4 +1,0 @@
-Energy of first state wrt bottom of potential well: Ezero
-           1
- 
-   H2   2.17037e+03

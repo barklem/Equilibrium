@@ -1,0 +1,37 @@
+39        Partition Functions for Yttrium
+  temp (K)    Z_Y I   Z_Y II
+   001.000    4.000    1.000 
+   500.000    5.304    1.623 
+  1000.000    6.797    3.920 
+  1500.000    7.608    6.136 
+  2000.000    8.109    7.981 
+  2500.000    8.486    9.551 
+  3000.000    8.860   10.948 
+  3500.000    9.316   12.241 
+  4000.000    9.918   13.470 
+  4500.000   10.704   14.659 
+  5000.000   11.696   15.822 
+  5500.000   12.907   16.967 
+  6000.000   14.338   18.100 
+  6500.000   15.989   19.224 
+  7000.000   17.855   20.342 
+  7500.000   19.931   21.457 
+  8000.000   22.211   22.569 
+  8500.000   24.688   23.681 
+  9000.000   27.353   24.793 
+  9500.000   30.201   25.907 
+ 10000.000   33.222   27.025 
+    -1.000    0.000    0.000
+
+The YI energy levels list is from Charlotte Moore, Atomic Energy Levels, 
+NBS-NSRDS 35,  vol. 2 (1971). Six fake even YI levels from 40000 to 
+51000 cm-1 have been added to replace levels missing in the NBS tables.
+These YI levels changed the partition function by 0.000% (0.001%) at
+5000K (10000K).
+Energy levels of Y II are from Nilsson, Johansson, & Kurucz, Phys. Scripta 
+vol 44, p 226 ( 1991). 
+Some, 5 even and 8 odd parity, missing levels were added, but all are
+above 80000 cm-1.  These changed the partition function by 0.00% (0.004%) 
+at 5000K (10000K).
+
+

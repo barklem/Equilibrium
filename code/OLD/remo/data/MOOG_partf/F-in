@@ -1,0 +1,38 @@
+09        Partition Functions for Fluorine
+  temp (K)    Z_F I   Z_F II
+   001.000    4.000    5.000 
+   500.000    4.625    6.369 
+  1000.000    5.118    7.331 
+  1500.000    5.357    7.788 
+  2000.000    5.495    8.050 
+  2500.000    5.585    8.220 
+  3000.000    5.648    8.338 
+  3500.000    5.694    8.426 
+  4000.000    5.729    8.495 
+  4500.000    5.758    8.551 
+  5000.000    5.780    8.600 
+  5500.000    5.799    8.645 
+  6000.000    5.815    8.687 
+  6500.000    5.829    8.728 
+  7000.000    5.841    8.770 
+  7500.000    5.851    8.812 
+  8000.000    5.860    8.855 
+  8500.000    5.868    8.899 
+  9000.000    5.875    8.944 
+  9500.000    5.881    8.990 
+ 10000.000    5.887    9.038 
+    -1.000    0.000    0.000
+
+The F I energy level list is from the nist.gov web site Dec. 2001. 
+The F II energy level list is from the nist.gov web site Dec. 2001. 
+Jim Lawler
+Arthur and Aurelia Schawlow Professor of Physics
+University of Wisconsin
+
+1150 University Ave.
+Madison, WI 53706
+
+tele: 608 262 2918
+fax:  608 265 2334
+
+

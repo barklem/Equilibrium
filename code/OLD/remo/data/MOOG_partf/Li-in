@@ -1,0 +1,41 @@
+03        Partition Functions for Lithium
+  temp (K)    Z_LiI   Z_LiII
+   001.000    2.000    1.000 
+   500.000    2.000    1.000 
+  1000.000    2.000    1.000 
+  1500.000    2.000    1.000 
+  2000.000    2.000    1.000 
+  2500.000    2.001    1.000 
+  3000.000    2.005    1.000 
+  3500.000    2.013    1.000 
+  4000.000    2.029    1.000 
+  4500.000    2.053    1.000 
+  5000.000    2.087    1.000 
+  5500.000    2.133    1.000 
+  6000.000    2.193    1.000 
+  6500.000    2.269    1.000 
+  7000.000    2.363    1.000 
+  7500.000    2.479    1.000 
+  8000.000    2.619    1.000 
+  8500.000    2.787    1.000 
+  9000.000    2.984    1.000 
+  9500.000    3.213    1.000 
+ 10000.000    3.477    1.000 
+    -1.000    0.000    0.000
+
+The Li I energy level list is from the nist.gov web site Dec. 2001. 
+The Li II energy level list is from the nist.gov web site Dec. 2001. 
+
+
+ 
+Jim Lawler
+Arthur and Aurelia Schawlow Professor of Physics
+University of Wisconsin
+
+1150 University Ave.
+Madison, WI 53706
+
+tele: 608 262 2918
+fax:  608 265 2334
+
+

@@ -1,0 +1,41 @@
+08        Partition Functions for Oxygen
+  temp (K)    Z_O I   Z_O II
+   001.000    5.000    4.000 
+   500.000    7.423    4.000 
+  1000.000    8.110    4.000 
+  1500.000    8.382    4.000 
+  2000.000    8.527    4.000 
+  2500.000    8.617    4.000 
+  3000.000    8.680    4.000 
+  3500.000    8.729    4.000 
+  4000.000    8.772    4.001 
+  4500.000    8.813    4.002 
+  5000.000    8.855    4.005 
+  5500.000    8.900    4.009 
+  6000.000    8.947    4.016 
+  6500.000    8.997    4.027 
+  7000.000    9.051    4.042 
+  7500.000    9.107    4.061 
+  8000.000    9.166    4.085 
+  8500.000    9.227    4.113 
+  9000.000    9.290    4.147 
+  9500.000    9.354    4.185 
+ 10000.000    9.418    4.229 
+    -1.000    0.000    0.000
+
+The O I energy level list is from the nist.gov web site Dec. 2001. 
+The O II energy level list is from the nist.gov web site Dec. 2001. 
+Some, 7  , fake O II levels above 260000cm-1 have been added
+for levels missing in nist.gov tables. These levels changed the partition
+function by  0.0% (0.0%) at 5000K (10000K).
+Jim Lawler
+Arthur and Aurelia Schawlow Professor of Physics
+University of Wisconsin
+
+1150 University Ave.
+Madison, WI 53706
+
+tele: 608 262 2918
+fax:  608 265 2334
+
+

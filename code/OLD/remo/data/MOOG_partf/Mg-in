@@ -1,0 +1,44 @@
+12        Partition Functions for Magnesium
+  temp (K)    Z_MgI   Z_MgII
+   001.000    1.000    2.000 
+   500.000    1.000    2.000 
+  1000.000    1.000    2.000 
+  1500.000    1.000    2.000 
+  2000.000    1.000    2.000 
+  2500.000    1.000    2.000 
+  3000.000    1.000    2.000 
+  3500.000    1.001    2.000 
+  4000.000    1.003    2.000 
+  4500.000    1.008    2.000 
+  5000.000    1.017    2.000 
+  5500.000    1.030    2.001 
+  6000.000    1.049    2.001 
+  6500.000    1.075    2.002 
+  7000.000    1.109    2.004 
+  7500.000    1.152    2.006 
+  8000.000    1.207    2.010 
+  8500.000    1.275    2.014 
+  9000.000    1.359    2.020 
+  9500.000    1.463    2.027 
+ 10000.000    1.589    2.036 
+    -1.000    0.000    0.000
+
+The Mg I energy level list is from the nist.gov web site Dec. 2001. 
+Some, 8 , fake Mg I levels between 58000cm-1 and 61000cm-1 have been added
+for levels missing J in nist.gov tables. These levels changed the partition
+function by  0.0% (0.6%) at 5000K (10000K).
+The Mg II energy level list is from the nist.gov web site Dec. 2001. 
+Some, 4  , fake Mg II levels above 112000cm-1 have been added
+for levels missing J in nist.gov tables. These levels changed the partition
+function by  0.0% (0.0%) at 5000K (10000K).
+Jim Lawler
+Arthur and Aurelia Schawlow Professor of Physics
+University of Wisconsin
+
+1150 University Ave.
+Madison, WI 53706
+
+tele: 608 262 2918
+fax:  608 265 2334
+
+

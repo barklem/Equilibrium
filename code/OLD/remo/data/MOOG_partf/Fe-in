@@ -1,0 +1,44 @@
+26        Partition Functions for Iron
+  temp (K)    Z_FeI   Z_FeII
+   001.000    9.000   10.000 
+   500.000   12.067   14.032 
+  1000.000   15.745   19.606 
+  1500.000   17.943   24.265 
+  2000.000   19.456   28.167 
+  2500.000   20.725   31.464 
+  3000.000   21.954   34.313 
+  3500.000   23.234   36.841 
+  4000.000   24.612   39.151 
+  4500.000   26.121   41.321 
+  5000.000   27.791   43.415 
+  5500.000   29.653   45.482 
+  6000.000   31.734   47.560 
+  6500.000   34.058   49.679 
+  7000.000   36.650   51.861 
+  7500.000   39.531   54.122 
+  8000.000   42.722   56.473 
+  8500.000   46.240   58.922 
+  9000.000   50.103   61.473 
+  9500.000   54.325   64.130 
+ 10000.000   58.920   66.895 
+    -1.000    0.000    0.000
+
+The lowest configurations of Fe I are 3d^6^ 4s^2^ which has 7 missing
+high terms of 16 and the 3d^7^ 4s which has 3 missing high terms of 16.
+The lowest configuration of Fe II is 3d^6^ 4s which is missing only 2 high
+terms of 24 terms (missing 12 of 420 states).  The other low Fe II conf. is 
+the 3d^7^ which is complete 8 of 8 terms (120 of 120 states).
+The Fe I energy level list is from the nist.gov web site Dec. 2001. 
+The Fe II energy level list is from the nist.gov web site Dec. 2001. 
+
+Jim Lawler
+Arthur and Aurelia Schawlow Professor of Physics
+University of Wisconsin
+
+1150 University Ave.
+Madison, WI 53706
+
+tele: 608 262 2918
+fax:  608 265 2334
+
+

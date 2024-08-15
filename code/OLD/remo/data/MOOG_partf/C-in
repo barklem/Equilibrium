@@ -1,0 +1,45 @@
+06        Partition Functions for Carbon
+  temp (K)    Z_C I   Z_C II
+   001.000    1.000    2.000 
+   500.000    8.275    5.333 
+  1000.000    8.627    5.651 
+  1500.000    8.750    5.764 
+  2000.000    8.814    5.822 
+  2500.000    8.863    5.857 
+  3000.000    8.911    5.880 
+  3500.000    8.967    5.897 
+  4000.000    9.033    5.910 
+  4500.000    9.109    5.920 
+  5000.000    9.192    5.928 
+  5500.000    9.282    5.934 
+  6000.000    9.378    5.940 
+  6500.000    9.476    5.945 
+  7000.000    9.578    5.950 
+  7500.000    9.680    5.955 
+  8000.000    9.785    5.960 
+  8500.000    9.889    5.966 
+  9000.000    9.995    5.972 
+  9500.000   10.101    5.980 
+ 10000.000   10.208    5.988 
+    -1.000    0.000    0.000
+
+The C I energy level list is from the nist.gov web site Dec. 2001. 
+No levels or terms are 
+missing from the low configurations of C I and C II.    The ^1^D term of the
+2s 2p^3^ configuration is not known, but it is actually above the I.P. like
+the ^1^P and ^3^S terms of this configuration.
+Some, 4 , fake C I levels between 89000cm-1 and 90000cm-1 have been added
+for levels missing in nist.gov tables. These levels changed the partition
+function by  0.0% (0.0%) at 5000K (10000K).
+The C II energy level list is from the nist.gov web site Dec. 2001. 
+Jim Lawler
+Arthur and Aurelia Schawlow Professor of Physics
+University of Wisconsin
+
+1150 University Ave.
+Madison, WI 53706
+
+tele: 608 262 2918
+fax:  608 265 2334
+
+

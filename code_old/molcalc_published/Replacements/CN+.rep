@@ -1,8 +1,0 @@
-state 2S+1  Lambda  plusmin oddeven      Te        we    wxe    wye   Be    alfe   game    De   bete   re
-a      1      0      .         .          0         .      .      .    .       .      .     .      .    .    EST
-b      1      1      .         .       8313.6       .      .      .    .       .      .     .      .    .    EST
-c      1      0      .         .       31771        .      .      .    .       .      .     .      .    .    EST
-f      1      0      .         .       45533        .      .      .    .       .      .     .      .    .    EST
-d      1      1      .         .       46253        .      .      .    .       .      .     .      .    .    EST
-end
-assume lowest state is ground

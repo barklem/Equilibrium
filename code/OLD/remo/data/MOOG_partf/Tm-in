@@ -1,0 +1,47 @@
+69        Partition Functions for thulium
+  temp (K)    Z_TmI   Z_TmII
+   500.000    8.000   12.540 
+  1000.000    8.000   13.978 
+  1500.000    8.001   14.579 
+  2000.000    8.013   14.925 
+  2500.000    8.054   15.193 
+  3000.000    8.161   15.470 
+  3500.000    8.387   15.813 
+  4000.000    8.802   16.277 
+  4500.000    9.487   16.917 
+  5000.000   10.528   17.791 
+  5500.000   12.011   18.960 
+  6000.000   14.023   20.477 
+  6500.000   16.649   22.394 
+  7000.000   19.969   24.751 
+  7500.000   24.057   27.585 
+  8000.000   28.982   30.922 
+  8500.000   34.802   34.783 
+  9000.000   41.564   39.182 
+  9500.000   49.306   44.126 
+ 10000.000   58.056   49.618 
+    -1.000    0.000    0.000
+
+The list of Tm I energy levels is from the NIST online data base 10/9/01
+The list of Tm II energy levels is from the NIST online data base 10/9/01
+The Tm I even parity 3/2 level @ 27509.40 cm-1 reported by Kroeger et at.
+Z. Phys. D vol 41, p 181 (1997) has been added.
+Additional 'fake'  5 odd parity & 7 even levels of Tm I were added between 
+31000 cm-1 and 50000 cm-1 to correct for some levels missing in NIST data.
+Additional 'fake' 3 odd parity & 1 even levels of Tm II were added between 
+26000 cm-1 and 29000 cm-1 to correct for some levels missingn in NIST data.
+There is also a Rydberg series including levels up to n = 44 which might not
+exist in LTE conditions due to suppression of the continuum.
+The combination of fake and Rydberg levels in both spectra made  <0.1% (1%)
+difference at 5000K (10000K)
+Jim Lawler
+Arthur and Aurelia Schawlow Professor of Physics
+University of Wisconsin
+
+1150 University Ave.
+Madison, WI 53706
+
+tele: 608 262 2918
+fax:  608 265 2334
+
+

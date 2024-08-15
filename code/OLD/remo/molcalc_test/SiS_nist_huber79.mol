@@ -1,0 +1,14 @@
+Do       sigma     mu             ip   
+6.4200     1     14.9206889   
+state 2S+1  Lambda       Te      we       wxe    wye      Be          alfe     game         De       bete          re
+X       1      0         0.      749.64  2.577  0.00052  0.30352788 0.00147308  -8.6E-8   2.01E-7      0.       1.929321
+#a
+D       1      1     35026.86    513.12  2.93     0.     0.26647    0.00216      0.       2.91E-7  -0.03E-7     2.059
+# next state many numbers are limits but we use anyway
+e       3      0     35322.      407.2   1.77     0.     0.2230     0.0029       0.       0.           0.       2.251
+C       1      2     37269.      439.9   3.97     0.     0.2269     0.0028       0.       0.           0.       2.231     
+# next state many numbers are limits but we use anyway
+I       1      0     37462.      404.9   1.18     0.     0.2142     0.0018       0.       0.           0.       2.297  
+E       1      0     41915.      405.6   1.60    -0.028  0.22137    0.00139     -0.000018 0.           0.       2.2591
+end 
+data Huber & Herzberg

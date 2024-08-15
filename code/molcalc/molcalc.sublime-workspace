@@ -1,0 +1,502 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"l",
+				"lgtau_std"
+			],
+			[
+				"make",
+				"makestruct_bengt"
+			],
+			[
+				"r",
+				"ratedown"
+			],
+			[
+				"lu",
+				"lu1"
+			],
+			[
+				"file",
+				"filein_model"
+			],
+			[
+				"Jover",
+				"joverb_nu"
+			],
+			[
+				"lam",
+				"lambda_cgs"
+			],
+			[
+				"col",
+				"col_light"
+			],
+			[
+				"vp",
+				"vp_ce_maxval"
+			],
+			[
+				"Jp",
+				"Jp_ce_maxval"
+			],
+			[
+				"xtot",
+				"xtot_dickinson"
+			],
+			[
+				"LZa",
+				"LZa_orig"
+			],
+			[
+				"tw",
+				"twoelectron"
+			],
+			[
+				"N",
+				"Nstates"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "AAnotes.txt",
+			"settings":
+			{
+				"buffer_size": 19129,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "molcalc.pro",
+			"settings":
+			{
+				"buffer_size": 7735,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "plotmol.pro",
+			"settings":
+			{
+				"buffer_size": 13235,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "collate.pro",
+			"settings":
+			{
+				"buffer_size": 29572,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: en",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control:en",
+				"Package Control: Enable Package"
+			],
+			[
+				"In",
+				"Package Control: Install Package"
+			],
+			[
+				"INST",
+				"Package Control: Install Package"
+			],
+			[
+				"Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/barklem/Library/CloudStorage/Dropbox/Projects/Equilibrium/DATA/extremely large T grid vNov2022/atompartf_table.txt",
+		"/Users/barklem/Library/CloudStorage/Dropbox/Projects_current/Hminus/work/modelling/calc_grid_conv.pro",
+		"/Users/barklem/Library/CloudStorage/Dropbox/Projects_current/Hminus/work/modelling/grid_conv.txt",
+		"/Users/barklem/Library/CloudStorage/Dropbox/Projects_current/Hminus/work/modelling/plot_conv.sh",
+		"/Users/barklem/Library/CloudStorage/Dropbox/Projects_current/Hminus/work/modelling/plot_grid_anish.sh",
+		"/Users/barklem/Library/CloudStorage/Dropbox/Projects_current/Hminus/work/modelling/plot_grid_anish.pro",
+		"/Users/barklem/Library/CloudStorage/Dropbox/Projects_current/Hminus/work/modelling/grid_anish.txt",
+		"/Users/barklem/Library/CloudStorage/Dropbox/Projects_current/Hminus/work/modelling/rmarcs.pro",
+		"/Users/barklem/Library/CloudStorage/Dropbox/Projects_current/Hminus/work/modelling/sun.mod",
+		"/Users/barklem/Library/CloudStorage/Dropbox/Projects_current/Hminus/work/modelling/hminus_bf_cross.pro",
+		"/Users/barklem/Library/CloudStorage/Dropbox/Projects_current/Hminus/paper/compare_rates.pro",
+		"/Users/barklem/Library/CloudStorage/Dropbox/Projects_current/Hminus/work/modelling/hminus_lib.pro",
+		"/Users/barklem/Library/CloudStorage/Dropbox/Projects_current/Hminus/work/modelling/calc_one.pro",
+		"/Users/barklem/Library/CloudStorage/Dropbox/Projects_current/Hminus/work/modelling/calc_grid_anish.pro",
+		"/Users/barklem/Library/CloudStorage/Dropbox/Projects_current/Hminus/work/modelling/planck.pro",
+		"/Users/barklem/Library/CloudStorage/Dropbox/Projects_current/Hminus/work/modelling/read_multi_data.pro",
+		"/Users/barklem/Dropbox/Projects/LiH/DESIREE branching/plots_paper.sh",
+		"/Users/barklem/Library/CloudStorage/Dropbox/Projects_current/Hminus/work/modelling/compare.pro",
+		"/Users/barklem/Dropbox/marcs2multi/readmarcsmod.pro",
+		"/Users/barklem/.zshrc",
+		"/Users/barklem/.zprofile",
+		"/Users/barklem/Library/CloudStorage/Dropbox/Projects_current/Hminus/work/J_marcs/calc_one.pro",
+		"/Users/barklem/Dropbox/Projects_current/Hminus/work/J_marcs/convection_models/7000g4.0z+0.00t1.mod",
+		"/Users/barklem/Dropbox/Projects_current/Hminus/work/J_marcs/convection_models/7000g4.0z+0.00t1_a000.mod",
+		"/Users/barklem/Dropbox/Projects_current/Hminus/work/J_marcs/convection_models/5750g4.5z+0.00t1_a001.mod",
+		"/Users/barklem/Dropbox/Projects_current/Hminus/work/J_marcs/convection_models/5750g4.5z+0.00t1_a000.mod",
+		"/Users/barklem/Dropbox/Projects_current/Hminus/work/J_marcs/plot_grid_anish.gnuplot",
+		"/Users/barklem/Dropbox/Projects_current/Hminus/work/J_marcs/hminus_lib.pro",
+		"/Users/barklem/Dropbox/Projects_current/Hminus/work/J_marcs/calc_grid.pro",
+		"/Users/barklem/Dropbox/Projects_current/Hminus/work/J_marcs/calc.pro",
+		"/Users/barklem/Dropbox/Projects current/Hminus/work/electron detachment rate compare.pro",
+		"/Users/barklem/Dropbox/marcs2multi/rmarcs.pro",
+		"/Users/barklem/Dropbox/Projects current/quantum scattering/QUANTXS_test/quantxs.f",
+		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOV/source/ioncov/pdfE.sh",
+		"/Users/barklem/Dropbox/Projects current/quantum scattering/QUANTXS_test/AA_work.txt",
+		"/Users/barklem/Dropbox/Projects current/quantum scattering/QUANTXS_test/input/NaHnr.dia2cR",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/molcalc_atoms_extendedTbyPB/AA_Bug fix Oct-Nov 2022",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/remo/molcalc_test/mollist.2",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/remo/molcalc_test/mollist.3",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/remo/molcalc_test/molcalc.pro",
+		"/Users/barklem/Dropbox/Projects/model atoms for anish/li.output",
+		"/Users/barklem/Dropbox/Projects/LiH/DESIREE branching/bf_SEMI-EMP.dat",
+		"/Users/barklem/Dropbox/Projects/LiH/DESIREE branching/bf_LCAO.dat",
+		"/Users/barklem/Dropbox/Projects/LiH/DESIREE branching/bf_dickinson.dat",
+		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOV/output/FINAL/Li_allmodels_2019/SYMMETRIES_merged",
+		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOV/output/FINAL/Li_allmodels_2019/finaldata/2000_K.rates",
+		"/Users/barklem/Dropbox/Projects/inelastic_fortran/models/make_best_rates.pro",
+		"/Users/barklem/Dropbox/Projects/LiH/DESIREE branching/bf_LH-J.dat",
+		"/Users/barklem/Dropbox/Projects/LiH/compare/compareLiH.pro",
+		"/Users/barklem/Dropbox/Projects/LiH/DESIREE branching/Dickinson/LiH_dickinson.dat",
+		"/Users/barklem/Dropbox/Projects/LiH/DESIREE branching/Dickinson/LiH_dickinson_highE.dat",
+		"/Users/barklem/Dropbox/Projects/LiH/DESIREE branching/bf_desiree.dat",
+		"/Users/barklem/Dropbox/Projects/LiH/DESIREE branching/bf_louvain.dat",
+		"/Users/barklem/Dropbox/Projects/LiH/DESIREE branching/bfplot_3s_simple.sh",
+		"/Users/barklem/Dropbox/Projects/LiH/DESIREE branching/bfplot.sh",
+		"/Users/barklem/Dropbox/Projects/LiH/DESIREE branching/bfplot_half.sh",
+		"/Users/barklem/Dropbox/Projects/LiH/DESIREE branching/branching_Li+H.pro",
+		"/Users/barklem/Dropbox/Projects_notlaptop/multi/source_dp/mul22_opaco.f",
+		"/Users/barklem/Dropbox/Projects_notlaptop/multi/input/krz2atmos.pro",
+		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOV/output/TESTING/Mn_longtest/states_kaulakys.txt",
+		"/Users/barklem/Dropbox/Projects/rydberg/kaulakys/input/Mn.txt",
+		"/Users/barklem/Dropbox/Projects/rydberg/kaulakys/kaulakys.pro",
+		"/Users/barklem/Dropbox/Projects/rydberg/kaulakys/calc_kaulakys.pro",
+		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOV/input/Mg.inp",
+		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOV/ioncov.sublime-project",
+		"/Users/barklem/Dropbox/Projects/broadening/broadening-extras/HK_bands_sneden/ir.list",
+		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOV/input/C.inp",
+		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOV/input/K.inp",
+		"/Users/barklem/Dropbox/Projects/Mg+e/comp_mge.pro",
+		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOV/output/Ca/multilz/TOTALS/LCAO/MERGE/flucs/6000_K.max",
+		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOV/output/Ca/multilz/TOTALS/LCAO/MERGE/flucs/6000_K.min",
+		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOV/output/Ca/multilz/TOTALS/LCAO/MERGE/switch/6000_K.rates",
+		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOV/output/Ca/merged_states",
+		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOV/output/Ca/multilz/TOTALS/LCAO/MERGE/flucs6000_K.max",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/paper/tables/tables_cds/table2/AgCl.txt",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/paper/tables/tables_cds/table2/ch-ext",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/paper/tables/tables_cds/table4.txt",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/paper/tables/tables_cds/table5b.bib",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/paper/tables/tables_cds/table5a.txt",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/paper/tables/tables_cds/table6.txt",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/paper/tables/tables_cds/table7.txt",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/paper/tables/tables_cds/table8.txt",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/molcalc/parse_mol.pro",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/paper/tables/tables_cds/table1.readme",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/paper/tables/tables_cds/table1.txt",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/paper/ref_reply.txt"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "AAnotes.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "molcalc.pro",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7735,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Interactive Data Language (IDL)/IDL.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "plotmol.pro",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13235,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Interactive Data Language (IDL)/IDL.sublime-syntax",
+							"tab_size": 8,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "collate.pro",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29572,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Interactive Data Language (IDL)/IDL.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "molcalc.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

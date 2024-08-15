@@ -1,0 +1,43 @@
+61        Partition Functions for Promethium
+   temp (K)   Z_PmI   Z_PmII
+   001.000    6.000    5.000 
+   500.000    6.861    7.395 
+  1000.000    9.604   12.380 
+  1500.000   12.918   19.186 
+  2000.000   16.533   28.011 
+  2500.000   20.292   38.355 
+  3000.000   24.074   49.517 
+  3500.000   27.823   60.951 
+  4000.000   31.561   72.328 
+  4500.000   35.376   83.492 
+  5000.000   39.397   94.401 
+  5500.000   43.769  105.084 
+  6000.000   48.629  115.600 
+  6500.000   54.096  126.020 
+  7000.000   60.256  136.410 
+  7500.000   67.170  146.831 
+  8000.000   74.869  157.328 
+  8500.000   83.358  167.936 
+  9000.000   92.626  178.676 
+  9500.000  102.643  189.560 
+ 10000.000  113.370  200.591 
+    -1.000    0.000    0.000
+
+The Pm I energy level list is from the NIST web site Dec. 2001. 
+The Pm II energy level list is from the NIST web site Dec. 2001. 
+Some, 12, fake Pm II levels between 4000cm-1 and 8000cm-1 have been added
+for levels missing in nist.gov tables. These levels changed the partition
+function by  59.7% ( 62.5%) at 5000K (10000K).
+Note: Pm I and Pm II are not well studied; only 12 odd parity levels of Pm I
+and 19 odd parity levels of Pm II are known!
+Jim Lawler
+Arthur and Aurelia Schawlow Professor of Physics
+University of Wisconsin
+
+1150 University Ave.
+Madison, WI 53706
+
+tele: 608 262 2918
+fax:  608 265 2334
+
+

@@ -1,0 +1,36 @@
+76        Partition Functions for Osmium
+  temp (K)    Z_OsI   Z_OsII
+   001.000    9.000   10.000 
+   500.000    9.002   10.000 
+  1000.000    9.122   10.068 
+  1500.000    9.587   10.419 
+  2000.000   10.407   11.073 
+  2500.000   11.500   11.935 
+  3000.000   12.804   12.933 
+  3500.000   14.290   14.030 
+  4000.000   15.952   15.210 
+  4500.000   17.788   16.465 
+  5000.000   19.800   17.789 
+  5500.000   21.991   19.177 
+  6000.000   24.364   20.623 
+  6500.000   26.921   22.118 
+  7000.000   29.664   23.657 
+  7500.000   32.597   25.232 
+  8000.000   35.721   26.835 
+  8500.000   39.041   28.460 
+  9000.000   42.557   30.103 
+  9500.000   46.274   31.757 
+ 10000.000   50.192   33.419 
+    -1.000    0.000    0.000
+
+The  Os I energy levels list is from Charlotte Moore, Atomic Energy Levels,
+NBS-NSRDS 35,  vol. 3 (1971).
+Some, 16, fake levels between 15000cm-1 and 53000cm-1 have been added
+for levels missing in Moore's tables. These levels changed the partition
+function by 0.8% (4.5%) at 5000K (10000K).
+The  Os II energy levels list is from Charlotte Moore, Atomic Energy Levels,
+NBS-NSRDS 35,  vol. 3 (1971).
+Understanding of the Os II spectrum is quite incomplete. Fewer than 40 
+levels are known, and the last experimental work is from the mid 1950's.
+
+

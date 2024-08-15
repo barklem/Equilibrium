@@ -1,7 +1,0 @@
-        D0        I1        I2
- 4.5970000       0.0       0.5
-                                   label   name Lambda   2S+1    +/-    u/g             Te             we            wxe            wye             Be           alfe           game             De           bete             re   references
-                                                                                    [cm-1]         [cm-1]         [cm-1]         [cm-1]         [cm-1]         [cm-1]         [cm-1]         [cm-1]         [cm-1]           [AA]             
-                                       C      C      .      1      .      .      x+(42743)          (694)            (7)              .              .              .              .              .              .              .     HH     HH     HH     HH     HH     HH     HH     HH     HH     HH
-                                     (X)             .      1      .      .              x          (678)            (7)              .              .              .              .              .              .              .     HH     HH     HH     HH     HH     HH     HH     HH     HH     HH
-END

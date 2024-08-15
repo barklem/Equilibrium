@@ -1,0 +1,40 @@
+Return-Path: <asplund@MPA-Garching.MPG.DE>
+Received: from macpro-01.MPA-Garching.MPG.DE (macpro-01.MPA-Garching.MPG.DE [130.183.86.86])
+	by mpadmx-4.MPA-Garching.MPG.DE (8.13.7/8.13.3) with ESMTP id mAAEle9V022654;
+	Mon, 10 Nov 2008 15:47:40 +0100
+Message-Id: <0C1E3B8E-31AA-4743-ADBC-53B20E938C0A@MPA-Garching.MPG.DE>
+From: Martin Asplund <asplund@MPA-Garching.MPG.DE>
+To: Remo Collet <remo@MPA-Garching.MPG.DE>
+Content-Type: text/plain; charset=US-ASCII; format=flowed
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v926)
+Subject: molecular dissociation energies
+Date: Mon, 10 Nov 2008 15:47:40 +0100
+Cc: Martin Asplund <asplund@MPA-Garching.MPG.DE>
+X-Mailer: Apple Mail (2.926)
+X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-4.0 (mpadmx-4.MPA-Garching.MPG.DE [130.183.82.44]); Mon, 10 Nov 2008 15:47:40 +0100 (CET)
+
+Ciao Remo,
+
+Here are the dissociation energies I think we should adopt for
+computing the molecular partition functions. Would you mind
+incorporating those in Paul's program and compute. Thanks!
+
+Mol       D00         reference
+H2         4.478      Sauval & Tatum (1984)
+H2+      2.6508    Sauval & Tatum (1984)
+H2O     9.496
+OH        4.392      Sauval & Tatum (1984)
+CH       3.465       Sauval & Tatum (1984)
+CO      11.092      Sauval & Tatum (1984)
+CN       7.738       Huang et al. (1992)
+C2        6.297       Urdahl et al. (1991)
+N2        9.759       Sauval & Tatum (1984)
+O2        5.116       Sauval & Tatum (1984)
+NO       6.497       Sauval & Tatum (1984)
+NH       3.420       Marquette et al. (1988)
+
+Cheers,
+
+Martin
+

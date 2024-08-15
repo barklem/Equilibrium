@@ -1,0 +1,39 @@
+17        Partition Functions for Chlorine
+  temp (K)    Z_ClI   Z_ClII
+   001.000    4.000    5.000 
+   500.000    4.158    5.462 
+  1000.000    4.562    6.341 
+  1500.000    4.858    6.923 
+  2000.000    5.060    7.308 
+  2500.000    5.204    7.580 
+  3000.000    5.310    7.787 
+  3500.000    5.392    7.959 
+  4000.000    5.456    8.110 
+  4500.000    5.508    8.249 
+  5000.000    5.552    8.381 
+  5500.000    5.588    8.509 
+  6000.000    5.619    8.633 
+  6500.000    5.645    8.755 
+  7000.000    5.668    8.874 
+  7500.000    5.689    8.990 
+  8000.000    5.707    9.104 
+  8500.000    5.723    9.216 
+  9000.000    5.737    9.324 
+  9500.000    5.751    9.430 
+ 10000.000    5.763    9.534 
+    -1.000    0.000    0.000
+
+The Cl I energy level list is from the nist.gov web site Dec. 2001. 
+The Cl II energy level list is from the nist.gov web site Dec. 2001. 
+
+Jim Lawler
+Arthur and Aurelia Schawlow Professor of Physics
+University of Wisconsin
+
+1150 University Ave.
+Madison, WI 53706
+
+tele: 608 262 2918
+fax:  608 265 2334
+
+
